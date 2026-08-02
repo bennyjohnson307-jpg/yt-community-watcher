@@ -1,0 +1,32 @@
+name: Community Post Watcher
+
+on:
+  schedule:
+    - cron: "*/6 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run watcher
+        env:
+          COMMUNITY_POST_URL: ${{ vars.COMMUNITY_POST_URL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SPIKE_LIKES_PER_MIN: "5"
+          SPIKE_COMMENTS_PER_MIN: "2"
+        run: python community_watch.py
+
+      - name: Save state for next run
+        run: |
+          git config user.name "community-watcher-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "update state [skip ci]"
+          git push
