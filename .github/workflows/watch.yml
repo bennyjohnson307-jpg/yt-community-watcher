@@ -20,7 +20,7 @@ jobs:
         env:
           COMMUNITY_POST_URL: ${{ vars.COMMUNITY_POST_URL }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          SPIKE_LIKES_PER_MIN: "2"
+          SPIKE_LIKES_PER_MIN: "20"
           SPIKE_COMMENTS_PER_MIN: "0"
         run: python community_watch.py
 
