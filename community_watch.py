@@ -203,6 +203,14 @@ def main():
             json.dump(data, f, indent=2)
         print("Wrote debug_ytInitialData.json")
 
+    if DEBUG:
+        api_key = get_innertube_key(html)
+        client_version = get_client_version(html)
+        conts = find_all_continuations(data)
+        print(f"DEBUG: found {len(conts)} continuation tokens:")
+        for c in conts:
+            print(f"  path={c['path']}")
+        print(f"DEBUG: api_key found = {bool(api_key)}")
     likes, comments = find_counts(data)
     now = time.time()
     state = load_state()
