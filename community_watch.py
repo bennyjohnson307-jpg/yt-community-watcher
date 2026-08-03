@@ -211,6 +211,15 @@ def main():
         for c in conts:
             print(f"  path={c['path']}")
         print(f"DEBUG: api_key found = {bool(api_key)}")
+
+    if conts:
+            cont_token = conts[0]["token"]
+            try:
+                resp = fetch_comments_page(api_key, client_version, cont_token)
+                fresh = count_fresh_toplevel_comments(resp)
+                print(f"DEBUG: fresh top-level comments (posted 'X seconds ago') = {fresh}")
+            except Exception as e:
+                print(f"DEBUG: comment fetch failed: {e}")
     likes, comments = find_counts(data)
     now = time.time()
     state = load_state()
