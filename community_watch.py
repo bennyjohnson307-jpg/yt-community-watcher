@@ -96,6 +96,77 @@ def find_counts(data: dict):
     walk(data)
     return likes, comments
 
+def get_innertube_key(html: str):
+    m = re.search(r'"INNERTUBE_API_KEY":"([^"]+)"', html)
+    return m.group(1) if m else None
+
+
+def get_client_version(html: str):
+    m = re.search(r'"clientVersion":"([^"]+)"', html)
+    return m.group(1) if m else "2.20240101.00.00"
+
+
+def find_all_continuations(data: dict):
+    """Find every continuation token in the page, tagged with a hint of
+    what section it belongs to, so we can identify the comments one."""
+    found = []
+
+    def walk(obj, path=""):
+        if isinstance(obj, dict):
+            cmd = obj.get("continuationCommand") or obj.get("nextContinuationData")
+            token = None
+            if cmd:
+                token = cmd.get("token") or cmd.get("continuation")
+            if token:
+                found.append({"path": path, "token": token})
+            for k, v in obj.items():
+                walk(v, f"{path}/{k}")
+        elif isinstance(obj, list):
+            for i, v in enumerate(obj):
+                walk(v, f"{path}[{i}]")
+
+    walk(data)
+    return found
+
+
+def fetch_comments_page(api_key: str, client_version: str, cont_token: str):
+    body = json.dumps({
+        "context": {"client": {"clientName": "WEB", "clientVersion": client_version}},
+        "continuation": cont_token,
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        f"https://www.youtube.com/youtubei/v1/next?key={api_key}",
+        data=body,
+        headers={**HEADERS, "Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read().decode("utf-8", errors="ignore"))
+
+
+def count_fresh_toplevel_comments(resp: dict):
+    """Counts top-level comments (not replies) whose posted time says
+    'X seconds ago' - i.e. genuinely fresh."""
+    fresh_count = [0]
+
+    def walk(obj):
+        if isinstance(obj, dict):
+            thread = obj.get("commentThreadRenderer")
+            if thread:
+                comment = thread.get("comment", {}).get("commentRenderer", {})
+                published = comment.get("publishedTimeText", {})
+                text = "".join(r.get("text", "") for r in published.get("runs", []))
+                if "second" in text.lower():
+                    fresh_count[0] += 1
+            for v in obj.values():
+                walk(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                walk(v)
+
+    walk(resp)
+    return fresh_count[0]
 
 def load_state() -> dict:
     if os.path.exists(STATE_FILE):
