@@ -22,6 +22,7 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           SPIKE_LIKES_PER_MIN: "40"
           SPIKE_COMMENTS_PER_MIN: "10"
+          DEBUG: "1"
         run: python community_watch.py
 
       - name: Save state for next run
