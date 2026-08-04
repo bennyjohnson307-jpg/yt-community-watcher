@@ -153,7 +153,7 @@ def find_comment_mentions(data: dict):
         with open("debug_ytInitialData.json", "w") as f:
             json.dump(data, f, indent=2)
         print("Wrote debug_ytInitialData.json")
-        if DEBUG:
+    if DEBUG:
         mentions = find_comment_mentions(data)
         print(f"DEBUG: found {len(mentions)} comment-related keys:")
         for m in mentions[:20]:
