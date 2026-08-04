@@ -1,20 +1,10 @@
 #!/usr/bin/env python3
 """
-YouTube Community Post traffic watcher.
+YouTube Community Post traffic watcher - watches multiple posts.
 
-Scrapes the like/comment counts embedded in a community post's page HTML
-(the same JSON your browser parses, no official API exists for this),
-tracks how fast those counts are rising, and fires a push notification
-via ntfy.sh when the rate crosses a threshold.
-
-NOTE: This relies on YouTube's internal page structure (ytInitialData).
-That structure isn't documented and can change without notice.
-
-NOTE: The comment count is currently always None. YouTube does not
-include it in the page data for logged-out/script requests - only the
-like count is available this way. The flood-alert logic below is kept
-in place and will activate automatically once/if authenticated access
-(via session cookies) is added in a future update.
+Scrapes the like/comment counts embedded in each community post's page
+HTML, tracks how fast those counts are rising, and fires a push
+notification via ntfy.sh when the rate crosses a threshold.
 """
 
 import json
@@ -24,7 +14,9 @@ import sys
 import time
 import urllib.request
 
-POST_URL = os.environ["COMMUNITY_POST_URL"]
+POST_URLS = [
+    u.strip() for u in os.environ["COMMUNITY_POST_URLS"].split(",") if u.strip()
+]
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
 STATE_FILE = os.environ.get("STATE_FILE", "state.json")
 SPIKE_LIKES_PER_MIN = float(os.environ.get("SPIKE_LIKES_PER_MIN", "50"))
@@ -53,8 +45,7 @@ def extract_yt_initial_data(html: str) -> dict:
     if not m:
         raise RuntimeError(
             "Could not find ytInitialData in the page. YouTube may have "
-            "changed its markup, or the URL didn't load a real post "
-            "(check for a login/consent wall)."
+            "changed its markup, or the URL didn't load a real post."
         )
     return json.loads(m.group(1))
 
@@ -75,7 +66,6 @@ def parse_count(text: str):
 
 
 def find_counts(data: dict):
-    """Walk the JSON tree looking for the post's vote count and reply count."""
     likes = comments = None
 
     def text_of(node):
@@ -128,72 +118,77 @@ def notify(title: str, message: str, priority: str = "high"):
     req = urllib.request.Request(
         f"https://ntfy.sh/{NTFY_TOPIC}",
         data=message.encode("utf-8"),
-        headers={
-            "Title": title,
-            "Priority": priority,
-            "Tags": "fire,speaker",
-        },
+        headers={"Title": title, "Priority": priority, "Tags": "fire,speaker"},
         method="POST",
     )
     urllib.request.urlopen(req, timeout=15)
 
 
-def main():
-    html = fetch_html(POST_URL)
-    data = extract_yt_initial_data(html)
+def check_post(post_url: str, state: dict):
+    try:
+        html = fetch_html(post_url)
+        data = extract_yt_initial_data(html)
+    except Exception as e:
+        print(f"[{post_url}] fetch/parse failed: {e}")
+        return
 
     likes, comments = find_counts(data)
     now = time.time()
-    state = load_state()
 
     if likes is None and comments is None:
-        print("Could not parse like/comment counts.")
-        sys.exit(0)
+        print(f"[{post_url}] could not parse counts.")
+        return
 
-    prev = state.get(POST_URL)
-    state[POST_URL] = {"t": now, "likes": likes, "comments": comments}
+    prev = state.get(post_url)
+    state[post_url] = {"t": now, "likes": likes, "comments": comments}
+
+    print(f"[{post_url}] likes={likes} comments={comments}")
+
+    if not prev:
+        print(f"[{post_url}] first run - baseline recorded.")
+        return
+
+    dt_min = max((now - prev["t"]) / 60.0, 0.01)
+    d_likes = (
+        (likes - prev["likes"]) / dt_min
+        if likes is not None and prev.get("likes") is not None
+        else 0
+    )
+    d_comments = (
+        (comments - prev["comments"]) / dt_min
+        if comments is not None and prev.get("comments") is not None
+        else 0
+    )
+    print(f"[{post_url}] rate: +{d_likes:.2f} likes/min, +{d_comments:.2f} comments/min")
+
+    comments_gained = (
+        comments - prev["comments"]
+        if comments is not None and prev.get("comments") is not None
+        else 0
+    )
+    if comments_gained >= FLOOD_COMMENT_COUNT:
+        notify(
+            "Comments flooding in",
+            f"{post_url}\n{int(comments_gained)} new comments since last check - jump in now!",
+        )
+        print(f"[{post_url}] flood detected: {int(comments_gained)} new comments.")
+
+    if d_likes >= SPIKE_LIKES_PER_MIN or d_comments >= SPIKE_COMMENTS_PER_MIN:
+        notify(
+            "Community post is heating up",
+            f"{post_url}\n"
+            f"+{d_likes:.1f} likes/min, +{d_comments:.1f} comments/min\n"
+            f"Totals so far: {int(likes) if likes else '?'} likes, "
+            f"{int(comments) if comments else '?'} comments",
+        )
+        print(f"[{post_url}] spike detected - notification sent.")
+
+
+def main():
+    state = load_state()
+    for post_url in POST_URLS:
+        check_post(post_url, state)
     save_state(state)
-
-    print(f"likes={likes} comments={comments}")
-
-    if prev:
-        dt_min = max((now - prev["t"]) / 60.0, 0.01)
-        d_likes = (
-            (likes - prev["likes"]) / dt_min
-            if likes is not None and prev.get("likes") is not None
-            else 0
-        )
-        d_comments = (
-            (comments - prev["comments"]) / dt_min
-            if comments is not None and prev.get("comments") is not None
-            else 0
-        )
-        print(f"rate: +{d_likes:.2f} likes/min, +{d_comments:.2f} comments/min")
-
-        comments_gained = (
-            comments - prev["comments"]
-            if comments is not None and prev.get("comments") is not None
-            else 0
-        )
-        if comments_gained >= FLOOD_COMMENT_COUNT:
-            notify(
-                "Comments flooding in",
-                f"{POST_URL}\n"
-                f"{int(comments_gained)} new comments since last check - jump in now!",
-            )
-            print(f"Flood detected: {int(comments_gained)} new comments.")
-
-        if d_likes >= SPIKE_LIKES_PER_MIN or d_comments >= SPIKE_COMMENTS_PER_MIN:
-            notify(
-                "Community post is heating up",
-                f"{POST_URL}\n"
-                f"+{d_likes:.1f} likes/min, +{d_comments:.1f} comments/min\n"
-                f"Totals so far: {int(likes) if likes else '?'} likes, "
-                f"{int(comments) if comments else '?'} comments",
-            )
-            print("Spike detected - notification sent.")
-    else:
-        print("First run - baseline recorded, nothing to compare yet.")
 
 
 if __name__ == "__main__":
