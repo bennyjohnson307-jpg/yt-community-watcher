@@ -131,11 +131,33 @@ def notify(title: str, message: str, priority: str = "high"):
 def main():
     html = fetch_html(POST_URL)
     data = extract_yt_initial_data(html)
+def find_comment_mentions(data: dict):
+    """Search the entire page for anything mentioning 'comment', to find
+    where YouTube actually stores the comment count for this post type."""
+    matches = []
 
+    def walk(obj, path=""):
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                if "comment" in k.lower():
+                    snippet = json.dumps(v)[:300]
+                    matches.append(f"{path}/{k} = {snippet}")
+                walk(v, f"{path}/{k}")
+        elif isinstance(obj, list):
+            for i, v in enumerate(obj):
+                walk(v, f"{path}[{i}]")
+
+    walk(data)
+    return matches
     if DEBUG:
         with open("debug_ytInitialData.json", "w") as f:
             json.dump(data, f, indent=2)
         print("Wrote debug_ytInitialData.json")
+        if DEBUG:
+        mentions = find_comment_mentions(data)
+        print(f"DEBUG: found {len(mentions)} comment-related keys:")
+        for m in mentions[:20]:
+            print(f"  {m}")
 
     likes, comments = find_counts(data)
     now = time.time()
