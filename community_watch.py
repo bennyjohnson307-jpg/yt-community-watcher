@@ -212,22 +212,6 @@ def main():
             print(f"  path={c['path']}")
         print(f"DEBUG: api_key found = {bool(api_key)}")
 
-    if conts:
-            cont_token = conts[0]["token"]
-            try:
-                resp = fetch_comments_page(api_key, client_version, cont_token)
-                resp_text = json.dumps(resp)
-                fresh = count_fresh_toplevel_comments(resp)
-                print(f"DEBUG: fresh top-level comments (posted 'X seconds ago') = {fresh}")
-                print(f"DEBUG: resp top-level keys = {list(resp.keys())}")
-                print(f"DEBUG: contains 'commentThreadRenderer' = {'commentThreadRenderer' in resp_text}")
-                print(f"DEBUG: contains 'commentEntityPayload' = {'commentEntityPayload' in resp_text}")
-                print(f"DEBUG: contains 'publishedTimeText' = {'publishedTimeText' in resp_text}")
-                print(f"DEBUG: contains 'CommentsHeaderRenderer' = {'commentsHeaderRenderer' in resp_text}")
-                print(f"DEBUG: response length = {len(resp_text)} chars")
-                print(f"DEBUG: first 1500 chars: {resp_text[:1500]}")
-            except Exception as e:
-                print(f"DEBUG: comment fetch failed: {e}")
     likes, comments = find_counts(data)
     now = time.time()
     state = load_state()
