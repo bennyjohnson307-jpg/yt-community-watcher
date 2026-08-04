@@ -18,7 +18,7 @@ jobs:
 
       - name: Run watcher
         env:
-          COMMUNITY_POST_URL: ${{ vars.COMMUNITY_POST_URL }}
+          COMMUNITY_POST_URLS: ${{ vars.COMMUNITY_POST_URLS }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           SPIKE_LIKES_PER_MIN: "40"
           SPIKE_COMMENTS_PER_MIN: "3"
