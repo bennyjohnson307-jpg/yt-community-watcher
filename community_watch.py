@@ -1,6 +1,20 @@
 #!/usr/bin/env python3
 """
 YouTube Community Post traffic watcher.
+
+Scrapes the like/comment counts embedded in a community post's page HTML
+(the same JSON your browser parses, no official API exists for this),
+tracks how fast those counts are rising, and fires a push notification
+via ntfy.sh when the rate crosses a threshold.
+
+NOTE: This relies on YouTube's internal page structure (ytInitialData).
+That structure isn't documented and can change without notice.
+
+NOTE: The comment count is currently always None. YouTube does not
+include it in the page data for logged-out/script requests - only the
+like count is available this way. The flood-alert logic below is kept
+in place and will activate automatically once/if authenticated access
+(via session cookies) is added in a future update.
 """
 
 import json
@@ -13,9 +27,9 @@ import urllib.request
 POST_URL = os.environ["COMMUNITY_POST_URL"]
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
 STATE_FILE = os.environ.get("STATE_FILE", "state.json")
-SPIKE_LIKES_PER_MIN = float(os.environ.get("SPIKE_LIKES_PER_MIN", "5"))
-SPIKE_COMMENTS_PER_MIN = float(os.environ.get("SPIKE_COMMENTS_PER_MIN", "2"))
-DEBUG = os.environ.get("DEBUG") == "1"
+SPIKE_LIKES_PER_MIN = float(os.environ.get("SPIKE_LIKES_PER_MIN", "50"))
+SPIKE_COMMENTS_PER_MIN = float(os.environ.get("SPIKE_COMMENTS_PER_MIN", "10"))
+FLOOD_COMMENT_COUNT = float(os.environ.get("FLOOD_COMMENT_COUNT", "3"))
 
 HEADERS = {
     "User-Agent": (
@@ -61,6 +75,7 @@ def parse_count(text: str):
 
 
 def find_counts(data: dict):
+    """Walk the JSON tree looking for the post's vote count and reply count."""
     likes = comments = None
 
     def text_of(node):
@@ -83,10 +98,6 @@ def find_counts(data: dict):
                     .get("buttonRenderer", {})
                     .get("text", {})
                 )
-                if DEBUG:
-                    print(f"DEBUG: post keys = {list(post.keys())}")
-                    action_buttons = post.get("actionButtons", {})
-                    print(f"DEBUG: actionButtons = {json.dumps(action_buttons)[:800]}")
                 if vc:
                     likes = parse_count(vc)
                 if rc:
@@ -99,7 +110,6 @@ def find_counts(data: dict):
 
     walk(data)
     return likes, comments
-
 
 
 def load_state() -> dict:
@@ -127,45 +137,17 @@ def notify(title: str, message: str, priority: str = "high"):
     )
     urllib.request.urlopen(req, timeout=15)
 
-def find_comment_mentions(data: dict):
-    """Search the entire page for anything mentioning 'comment', to find
-    where YouTube actually stores the comment count for this post type."""
-    matches = []
-
-    def walk(obj, path=""):
-        if isinstance(obj, dict):
-            for k, v in obj.items():
-                if "comment" in k.lower():
-                    snippet = json.dumps(v)[:300]
-                    matches.append(f"{path}/{k} = {snippet}")
-                walk(v, f"{path}/{k}")
-        elif isinstance(obj, list):
-            for i, v in enumerate(obj):
-                walk(v, f"{path}[{i}]")
-
-    walk(data)
-    return matches
 
 def main():
     html = fetch_html(POST_URL)
     data = extract_yt_initial_data(html)
-
-    if DEBUG:
-        with open("debug_ytInitialData.json", "w") as f:
-            json.dump(data, f, indent=2)
-        print("Wrote debug_ytInitialData.json")
-    if DEBUG:
-        mentions = find_comment_mentions(data)
-        print(f"DEBUG: found {len(mentions)} comment-related keys:")
-        for m in mentions[:20]:
-            print(f"  {m}")
 
     likes, comments = find_counts(data)
     now = time.time()
     state = load_state()
 
     if likes is None and comments is None:
-        print("Could not parse like/comment counts. Try DEBUG=1 to inspect the JSON.")
+        print("Could not parse like/comment counts.")
         sys.exit(0)
 
     prev = state.get(POST_URL)
@@ -187,13 +169,13 @@ def main():
             else 0
         )
         print(f"rate: +{d_likes:.2f} likes/min, +{d_comments:.2f} comments/min")
+
         comments_gained = (
             comments - prev["comments"]
             if comments is not None and prev.get("comments") is not None
             else 0
         )
-        FLOOD_THRESHOLD = float(os.environ.get("FLOOD_COMMENT_COUNT", "3"))
-        if comments_gained >= FLOOD_THRESHOLD:
+        if comments_gained >= FLOOD_COMMENT_COUNT:
             notify(
                 "Comments flooding in",
                 f"{POST_URL}\n"
