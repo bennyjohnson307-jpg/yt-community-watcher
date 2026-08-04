@@ -127,10 +127,6 @@ def notify(title: str, message: str, priority: str = "high"):
     )
     urllib.request.urlopen(req, timeout=15)
 
-
-def main():
-    html = fetch_html(POST_URL)
-    data = extract_yt_initial_data(html)
 def find_comment_mentions(data: dict):
     """Search the entire page for anything mentioning 'comment', to find
     where YouTube actually stores the comment count for this post type."""
@@ -149,6 +145,11 @@ def find_comment_mentions(data: dict):
 
     walk(data)
     return matches
+
+def main():
+    html = fetch_html(POST_URL)
+    data = extract_yt_initial_data(html)
+
     if DEBUG:
         with open("debug_ytInitialData.json", "w") as f:
             json.dump(data, f, indent=2)
