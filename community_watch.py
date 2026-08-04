@@ -4,7 +4,9 @@ YouTube Community Post traffic watcher - watches multiple posts.
 
 Scrapes the like/comment counts embedded in each community post's page
 HTML, tracks how fast those counts are rising, and fires a push
-notification via ntfy.sh when the rate crosses a threshold.
+notification via ntfy.sh when the rate crosses a threshold. Alerts
+include a US-timing hint (time-of-day proxy, since exact commenter
+location isn't available from YouTube).
 """
 
 import json
@@ -13,6 +15,8 @@ import re
 import sys
 import time
 import urllib.request
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 POST_URLS = [
     u.strip() for u in os.environ["COMMUNITY_POST_URLS"].split(",") if u.strip()
@@ -30,6 +34,20 @@ HEADERS = {
     ),
     "Accept-Language": "en-US,en;q=0.9",
 }
+
+
+def is_us_prime_time() -> bool:
+    et_now = datetime.now(ZoneInfo("America/New_York"))
+    return 7 <= et_now.hour < 23
+
+
+def us_time_label() -> str:
+    et_now = datetime.now(ZoneInfo("America/New_York"))
+    time_str = et_now.strftime("%I:%M %p ET")
+    if is_us_prime_time():
+        return f"US prime time ({time_str}) - high visibility window"
+    else:
+        return f"outside typical US hours ({time_str}) - lower visibility likely"
 
 
 def fetch_html(url: str) -> str:
@@ -169,7 +187,8 @@ def check_post(post_url: str, state: dict):
     if comments_gained >= FLOOD_COMMENT_COUNT:
         notify(
             "Comments flooding in",
-            f"{post_url}\n{int(comments_gained)} new comments since last check - jump in now!",
+            f"{post_url}\n{int(comments_gained)} new comments since last check - jump in now!\n"
+            f"{us_time_label()}",
         )
         print(f"[{post_url}] flood detected: {int(comments_gained)} new comments.")
 
@@ -179,7 +198,8 @@ def check_post(post_url: str, state: dict):
             f"{post_url}\n"
             f"+{d_likes:.1f} likes/min, +{d_comments:.1f} comments/min\n"
             f"Totals so far: {int(likes) if likes else '?'} likes, "
-            f"{int(comments) if comments else '?'} comments",
+            f"{int(comments) if comments else '?'} comments\n"
+            f"{us_time_label()}",
         )
         print(f"[{post_url}] spike detected - notification sent.")
 
