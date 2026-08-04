@@ -83,6 +83,10 @@ def find_counts(data: dict):
                     .get("buttonRenderer", {})
                     .get("text", {})
                 )
+                if DEBUG:
+                    print(f"DEBUG: post keys = {list(post.keys())}")
+                    action_buttons = post.get("actionButtons", {})
+                    print(f"DEBUG: actionButtons = {json.dumps(action_buttons)[:800]}")
                 if vc:
                     likes = parse_count(vc)
                 if rc:
