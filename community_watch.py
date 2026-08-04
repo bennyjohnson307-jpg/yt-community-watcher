@@ -169,6 +169,19 @@ def main():
             else 0
         )
         print(f"rate: +{d_likes:.2f} likes/min, +{d_comments:.2f} comments/min")
+        comments_gained = (
+            comments - prev["comments"]
+            if comments is not None and prev.get("comments") is not None
+            else 0
+        )
+        FLOOD_THRESHOLD = float(os.environ.get("FLOOD_COMMENT_COUNT", "3"))
+        if comments_gained >= FLOOD_THRESHOLD:
+            notify(
+                "Comments flooding in",
+                f"{POST_URL}\n"
+                f"{int(comments_gained)} new comments since last check - jump in now!",
+            )
+            print(f"Flood detected: {int(comments_gained)} new comments.")
 
         if d_likes >= SPIKE_LIKES_PER_MIN or d_comments >= SPIKE_COMMENTS_PER_MIN:
             notify(
