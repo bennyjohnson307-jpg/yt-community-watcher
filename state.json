@@ -25,8 +25,12 @@
     "comments": null
   },
   "http://youtube.com/post/Ugkx80381E7WX2EW2ddY8hwL2ECgxaWLRk8K": {
-    "t": 1786256169.4348147,
+    "t": 1786256294.004697,
     "likes": 11000.0,
-    "comments": null
+    "comments": null,
+    "rate_history": [
+      0.0
+    ],
+    "fail_count": 0
   }
 }
