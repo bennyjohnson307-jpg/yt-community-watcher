@@ -31,4 +31,5 @@ jobs:
           git add state.json
           git diff --staged --quiet || git commit -m "update state [skip ci]"
           git pull --rebase -X ours origin main
+          git push || (git pull --rebase -X ours origin main && git push)
           git push
