@@ -2,11 +2,11 @@
 """
 YouTube Community Post traffic watcher - watches multiple posts.
 
-Scrapes the like/comment counts embedded in each community post's page
-HTML, tracks how fast those counts are rising, and fires a push
-notification via ntfy.sh when the rate crosses a threshold. Alerts
-include a US-timing hint (time-of-day proxy, since exact commenter
-location isn't available from YouTube).
+Uses adaptive thresholds: compares each post's current engagement pace
+to its own recent rolling average, rather than one fixed number for
+every post. Falls back to a fixed floor while a post is still new
+(not enough history yet). Also tracks consecutive fetch failures per
+post and sends one watchdog alert if a post stops being readable.
 """
 
 import json
@@ -23,9 +23,13 @@ POST_URLS = [
 ]
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
 STATE_FILE = os.environ.get("STATE_FILE", "state.json")
-SPIKE_LIKES_PER_MIN = float(os.environ.get("SPIKE_LIKES_PER_MIN", "50"))
+SPIKE_LIKES_PER_MIN_FLOOR = float(os.environ.get("SPIKE_LIKES_PER_MIN", "50"))
 SPIKE_COMMENTS_PER_MIN = float(os.environ.get("SPIKE_COMMENTS_PER_MIN", "10"))
 FLOOD_COMMENT_COUNT = float(os.environ.get("FLOOD_COMMENT_COUNT", "3"))
+RATE_HISTORY_LEN = 20
+MIN_HISTORY_FOR_ADAPTIVE = 5
+ADAPTIVE_MULTIPLIER = 3.0
+FAIL_ALERT_THRESHOLD = 3
 
 HEADERS = {
     "User-Agent": (
@@ -46,8 +50,7 @@ def us_time_label() -> str:
     time_str = et_now.strftime("%I:%M %p ET")
     if is_us_prime_time():
         return f"US prime time ({time_str}) - high visibility window"
-    else:
-        return f"outside typical US hours ({time_str}) - lower visibility likely"
+    return f"outside typical US hours ({time_str}) - lower visibility likely"
 
 
 def fetch_html(url: str) -> str:
@@ -61,10 +64,7 @@ def extract_yt_initial_data(html: str) -> dict:
     if not m:
         m = re.search(r'ytInitialData"\]\s*=\s*(\{.*?\});', html, re.S)
     if not m:
-        raise RuntimeError(
-            "Could not find ytInitialData in the page. YouTube may have "
-            "changed its markup, or the URL didn't load a real post."
-        )
+        raise RuntimeError("Could not find ytInitialData in the page.")
     return json.loads(m.group(1))
 
 
@@ -143,26 +143,53 @@ def notify(title: str, message: str, priority: str = "high"):
 
 
 def check_post(post_url: str, state: dict):
+    entry = state.get(post_url, {})
+    fail_count = entry.get("fail_count", 0)
+
     try:
         html = fetch_html(post_url)
         data = extract_yt_initial_data(html)
+        likes, comments = find_counts(data)
     except Exception as e:
-        print(f"[{post_url}] fetch/parse failed: {e}")
+        fail_count += 1
+        print(f"[{post_url}] fetch/parse failed ({fail_count}x): {e}")
+        entry["fail_count"] = fail_count
+        state[post_url] = entry
+        if fail_count == FAIL_ALERT_THRESHOLD:
+            notify(
+                "Watcher problem",
+                f"{post_url}\nFailed to read this post {fail_count} times in a row - "
+                f"it may need a look.",
+                priority="default",
+            )
         return
 
-    likes, comments = find_counts(data)
     now = time.time()
 
     if likes is None and comments is None:
-        print(f"[{post_url}] could not parse counts.")
+        fail_count += 1
+        print(f"[{post_url}] could not parse counts ({fail_count}x).")
+        entry["fail_count"] = fail_count
+        state[post_url] = entry
+        if fail_count == FAIL_ALERT_THRESHOLD:
+            notify(
+                "Watcher problem",
+                f"{post_url}\nCouldn't read counts {fail_count} times in a row - "
+                f"it may need a look.",
+                priority="default",
+            )
         return
 
-    prev = state.get(post_url)
-    state[post_url] = {"t": now, "likes": likes, "comments": comments}
+    prev = entry if entry.get("t") else None
+    rate_history = entry.get("rate_history", [])
 
     print(f"[{post_url}] likes={likes} comments={comments}")
 
     if not prev:
+        state[post_url] = {
+            "t": now, "likes": likes, "comments": comments,
+            "rate_history": [], "fail_count": 0,
+        }
         print(f"[{post_url}] first run - baseline recorded.")
         return
 
@@ -179,6 +206,18 @@ def check_post(post_url: str, state: dict):
     )
     print(f"[{post_url}] rate: +{d_likes:.2f} likes/min, +{d_comments:.2f} comments/min")
 
+    baseline = None
+    if len(rate_history) >= MIN_HISTORY_FOR_ADAPTIVE:
+        baseline = sum(rate_history) / len(rate_history)
+        adaptive_threshold = max(
+            SPIKE_LIKES_PER_MIN_FLOOR * 0.3, baseline * ADAPTIVE_MULTIPLIER
+        )
+    else:
+        adaptive_threshold = SPIKE_LIKES_PER_MIN_FLOOR
+
+    rate_history.append(d_likes)
+    rate_history = rate_history[-RATE_HISTORY_LEN:]
+
     comments_gained = (
         comments - prev["comments"]
         if comments is not None and prev.get("comments") is not None
@@ -192,16 +231,22 @@ def check_post(post_url: str, state: dict):
         )
         print(f"[{post_url}] flood detected: {int(comments_gained)} new comments.")
 
-    if d_likes >= SPIKE_LIKES_PER_MIN or d_comments >= SPIKE_COMMENTS_PER_MIN:
+    if d_likes >= adaptive_threshold or d_comments >= SPIKE_COMMENTS_PER_MIN:
+        baseline_note = f" (this post's normal pace: {baseline:.1f}/min)" if baseline is not None else ""
         notify(
             "Community post is heating up",
             f"{post_url}\n"
-            f"+{d_likes:.1f} likes/min, +{d_comments:.1f} comments/min\n"
+            f"+{d_likes:.1f} likes/min, +{d_comments:.1f} comments/min{baseline_note}\n"
             f"Totals so far: {int(likes) if likes else '?'} likes, "
             f"{int(comments) if comments else '?'} comments\n"
             f"{us_time_label()}",
         )
         print(f"[{post_url}] spike detected - notification sent.")
+
+    state[post_url] = {
+        "t": now, "likes": likes, "comments": comments,
+        "rate_history": rate_history, "fail_count": 0,
+    }
 
 
 def main():
