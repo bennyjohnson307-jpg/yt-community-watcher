@@ -25,11 +25,10 @@
     "comments": null
   },
   "http://youtube.com/post/Ugkx80381E7WX2EW2ddY8hwL2ECgxaWLRk8K": {
-    "t": 1786588569.174143,
+    "t": 1786588690.1474113,
     "likes": 13000.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -48,12 +47,13 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx6iNgCMq2q6FoB9lLh-DpuEQW4DawCNJo": {
-    "t": 1786588569.4245813,
+    "t": 1786588690.4878201,
     "likes": 18000.0,
     "comments": null,
     "rate_history": [
@@ -81,7 +81,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxonUltHEQQHQXkEXapwbo0XSVqsBO-1ZS": {
-    "t": 1786588569.6698084,
+    "t": 1786588690.8026483,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -109,7 +109,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxWwaI4G_peaQ-0UPvpuZMpNl6V8GjB9Po": {
-    "t": 1786588569.8767517,
+    "t": 1786588691.1363,
     "likes": 10000.0,
     "comments": null,
     "rate_history": [
@@ -137,11 +137,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxRle9yi73G8KnyELxRuVXeo7h3RWNP5_y": {
-    "t": 1786588570.1165204,
-    "likes": 7100.0,
+    "t": 1786588691.3143973,
+    "likes": 7200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       47.16587715528959,
@@ -160,16 +159,16 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      49.50581769228255
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxBufTBy1doFxbaP1v8gBk8TIYQRniiav2": {
-    "t": 1786588570.3932216,
+    "t": 1786588691.8176181,
     "likes": 4100.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -188,16 +187,16 @@
       0.0,
       0.0,
       0.0,
-      49.61281956593459
+      49.61281956593459,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxL2mlAB6NlmBvCEJ8r8Jp-6rVZEDGfieF": {
-    "t": 1786588570.9365065,
+    "t": 1786588692.0323472,
     "likes": 1400.0,
     "comments": null,
     "rate_history": [
-      22.007131773728826,
       16.882494044836243,
       13.83295302995937,
       17.437609926985754,
@@ -216,7 +215,8 @@
       0.0,
       0.0,
       0.0,
-      49.45493086648123
+      49.45493086648123,
+      0.0
     ],
     "fail_count": 0
   }
