@@ -109,7 +109,14 @@ def find_counts(data: dict):
                 if rc:
                     comments = parse_count(rc)
                 author = text_of(post.get("authorText"))
-                if author:
+                handle = (
+                    post.get("authorEndpoint", {})
+                    .get("browseEndpoint", {})
+                    .get("canonicalBaseUrl", "")
+                )
+                if handle.startswith("/@"):
+                    channel_name = handle[1:]
+                elif author:
                     channel_name = author
             for v in obj.values():
                 walk(v)
