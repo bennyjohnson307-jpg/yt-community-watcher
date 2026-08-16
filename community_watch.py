@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 """
 YouTube Community Post traffic watcher - watches multiple posts.
-
-Uses adaptive thresholds: compares each post's current engagement pace
-to its own recent rolling average, rather than one fixed number for
-every post. Falls back to a fixed floor while a post is still new
-(not enough history yet). Also tracks consecutive fetch failures per
-post and sends one watchdog alert if a post stops being readable.
+Includes the channel name in every alert, adaptive per-post
+thresholds, comment-flood detection, US-timing context, and
+watchdog alerts on repeated failures.
 """
 
 import json
@@ -85,6 +82,7 @@ def parse_count(text: str):
 
 def find_counts(data: dict):
     likes = comments = None
+    channel_name = None
 
     def text_of(node):
         if not node:
@@ -94,7 +92,7 @@ def find_counts(data: dict):
         return "".join(r.get("text", "") for r in node.get("runs", []))
 
     def walk(obj):
-        nonlocal likes, comments
+        nonlocal likes, comments, channel_name
         if isinstance(obj, dict):
             post = obj.get("backstagePostRenderer")
             if post:
@@ -110,6 +108,9 @@ def find_counts(data: dict):
                     likes = parse_count(vc)
                 if rc:
                     comments = parse_count(rc)
+                author = text_of(post.get("authorText"))
+                if author:
+                    channel_name = author
             for v in obj.values():
                 walk(v)
         elif isinstance(obj, list):
@@ -117,7 +118,7 @@ def find_counts(data: dict):
                 walk(v)
 
     walk(data)
-    return likes, comments
+    return likes, comments, channel_name
 
 
 def load_state() -> dict:
@@ -149,7 +150,7 @@ def check_post(post_url: str, state: dict):
     try:
         html = fetch_html(post_url)
         data = extract_yt_initial_data(html)
-        likes, comments = find_counts(data)
+        likes, comments, channel_name = find_counts(data)
     except Exception as e:
         fail_count += 1
         print(f"[{post_url}] fetch/parse failed ({fail_count}x): {e}")
@@ -165,6 +166,7 @@ def check_post(post_url: str, state: dict):
         return
 
     now = time.time()
+    channel_label = channel_name or "Unknown channel"
 
     if likes is None and comments is None:
         fail_count += 1
@@ -183,7 +185,7 @@ def check_post(post_url: str, state: dict):
     prev = entry if entry.get("t") else None
     rate_history = entry.get("rate_history", [])
 
-    print(f"[{post_url}] likes={likes} comments={comments}")
+    print(f"[{channel_label}] [{post_url}] likes={likes} comments={comments}")
 
     if not prev:
         state[post_url] = {
@@ -226,7 +228,8 @@ def check_post(post_url: str, state: dict):
     if comments_gained >= FLOOD_COMMENT_COUNT:
         notify(
             "Comments flooding in",
-            f"{post_url}\n{int(comments_gained)} new comments since last check - jump in now!\n"
+            f"{channel_label}\n{post_url}\n"
+            f"{int(comments_gained)} new comments since last check - jump in now!\n"
             f"{us_time_label()}",
         )
         print(f"[{post_url}] flood detected: {int(comments_gained)} new comments.")
@@ -235,7 +238,7 @@ def check_post(post_url: str, state: dict):
         baseline_note = f" (this post's normal pace: {baseline:.1f}/min)" if baseline is not None else ""
         notify(
             "Community post is heating up",
-            f"{post_url}\n"
+            f"{channel_label}\n{post_url}\n"
             f"+{d_likes:.1f} likes/min, +{d_comments:.1f} comments/min{baseline_note}\n"
             f"Totals so far: {int(likes) if likes else '?'} likes, "
             f"{int(comments) if comments else '?'} comments\n"
