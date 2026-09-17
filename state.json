@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1789639449.4390225,
+    "t": 1789639568.552349,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -665,7 +665,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxNUTS1OmTRZIVgyoZH2cjpz_pT0rkh3OG": {
-    "t": 1789639449.708063,
+    "t": 1789639568.6963387,
     "likes": 7100.0,
     "comments": null,
     "rate_history": [
@@ -2541,11 +2541,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxu-GIfID40OO-Y1NDctzhZSXGP9442RiV": {
-    "t": 1789639449.8676348,
+    "t": 1789639568.8256311,
     "likes": 7000.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -2564,16 +2563,16 @@
       0.0,
       0.0,
       53.54928339009857,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx_5YZweXBndw9opLqjAV79g5CxSq6NMbc": {
-    "t": 1789639450.0242045,
+    "t": 1789639568.9665344,
     "likes": 3500.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -2592,6 +2591,7 @@
       0.0,
       0.0,
       53.34032899275826,
+      0.0,
       0.0
     ],
     "fail_count": 0
@@ -2625,8 +2625,8 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxyL0MhcJNkzT2XMjyayFBSbTex5RAr0tR": {
-    "t": 1789639450.1987648,
-    "likes": 308.0,
+    "t": 1789639569.0793588,
+    "likes": 319.0,
     "comments": null,
     "rate_history": [
       8.63071074081874,
@@ -2645,7 +2645,8 @@
       6.171538198993756,
       2.0307728225952113,
       10.113977356444398,
-      6.550160575238813
+      6.550160575238813,
+      5.551789217305298
     ],
     "fail_count": 0
   }
