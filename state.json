@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790788690.1643918,
+    "t": 1790788813.693395,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3465,11 +3465,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxc0fV_NQiz1f-wG129HWzeORghdXM5jY8": {
-    "t": 1790788690.3410025,
+    "t": 1790788813.8476584,
     "likes": 8100.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3488,12 +3487,13 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHdFHFjN4QJX8VhKO-Q_IHKPf5dHdKGxB": {
-    "t": 1790788690.6233835,
+    "t": 1790788814.0077975,
     "likes": 6500.0,
     "comments": null,
     "rate_history": [
@@ -3506,8 +3506,8 @@
       0.0,
       0.0,
       0.0,
-      0.0,
       48.40419796776845,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -3577,11 +3577,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxS_FtOGcfLDH9ByqwqV4AgHYO9ACmfXoZ": {
-    "t": 1790788690.8659384,
+    "t": 1790788814.1405118,
     "likes": 3100.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       50.62694464018952,
@@ -3600,16 +3599,16 @@
       0.0,
       0.0,
       49.26489483644011,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxT2IQLWIOaf6nCYG0w6ptqFnfB_Wj8gzJ": {
-    "t": 1790788691.1283154,
-    "likes": 678.0,
+    "t": 1790788814.2631736,
+    "likes": 684.0,
     "comments": null,
     "rate_history": [
-      4.193534143377351,
       4.38730238238322,
       3.540273217706295,
       2.9795339830317515,
@@ -3628,16 +3627,16 @@
       5.20418889388131,
       3.444885363686907,
       3.5386108934954357,
-      1.985328406458908
+      1.985328406458908,
+      2.9236237850358378
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxRLxIn1ZzspPfg85lSGSYgZwxuowiZyCo": {
-    "t": 1790788691.3837671,
-    "likes": 539.0,
+    "t": 1790788814.4002306,
+    "likes": 550.0,
     "comments": null,
     "rate_history": [
-      1.907117704507055,
       2.9226214617140083,
       2.52731378882682,
       2.4861216912028747,
@@ -3656,7 +3655,8 @@
       2.6030721588481995,
       3.4455385868127197,
       2.527114386755556,
-      1.4879450039949902
+      1.4879450039949902,
+      5.365135536534603
     ],
     "fail_count": 0
   }
