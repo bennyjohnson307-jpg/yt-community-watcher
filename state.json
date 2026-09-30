@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790781490.572949,
+    "t": 1790781615.939937,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3465,11 +3465,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxc0fV_NQiz1f-wG129HWzeORghdXM5jY8": {
-    "t": 1790781490.7333853,
+    "t": 1790781616.125202,
     "likes": 7900.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3488,12 +3487,13 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHdFHFjN4QJX8VhKO-Q_IHKPf5dHdKGxB": {
-    "t": 1790781490.9013834,
+    "t": 1790781616.2996688,
     "likes": 6100.0,
     "comments": null,
     "rate_history": [
@@ -3508,8 +3508,8 @@
       0.0,
       0.0,
       0.0,
-      0.0,
       49.35968579466852,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -3577,11 +3577,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxS_FtOGcfLDH9ByqwqV4AgHYO9ACmfXoZ": {
-    "t": 1790781491.0821497,
+    "t": 1790781616.4548671,
     "likes": 1800.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       49.00332553738312,
@@ -3600,13 +3599,14 @@
       50.498275037212736,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxT2IQLWIOaf6nCYG0w6ptqFnfB_Wj8gzJ": {
-    "t": 1790781491.2955937,
-    "likes": 112.0,
+    "t": 1790781616.6130753,
+    "likes": 128.0,
     "comments": null,
     "rate_history": [
       4.927193250295587,
@@ -3617,13 +3617,14 @@
       3.5233475912350993,
       6.447060415249892,
       6.8794975808496,
-      4.140979434543872
+      4.140979434543872,
+      7.660543352554572
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxRLxIn1ZzspPfg85lSGSYgZwxuowiZyCo": {
-    "t": 1790781491.4586642,
-    "likes": 125.0,
+    "t": 1790781616.7569299,
+    "likes": 132.0,
     "comments": null,
     "rate_history": [
       3.9432612894501715,
@@ -3634,7 +3635,8 @@
       6.041142155775346,
       6.443986917652676,
       5.7389343297721815,
-      8.27698023022572
+      8.27698023022572,
+      3.352001703043867
     ],
     "fail_count": 0
   }
