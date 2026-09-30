@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790794690.217197,
+    "t": 1790794816.3814108,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3465,11 +3465,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxc0fV_NQiz1f-wG129HWzeORghdXM5jY8": {
-    "t": 1790794690.5327537,
+    "t": 1790794816.7318769,
     "likes": 8300.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3488,16 +3487,16 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHdFHFjN4QJX8VhKO-Q_IHKPf5dHdKGxB": {
-    "t": 1790794690.7923684,
+    "t": 1790794816.9590898,
     "likes": 6900.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       47.4317829135361,
@@ -3514,6 +3513,7 @@
       0.0,
       0.0,
       51.62420609611961,
+      0.0,
       0.0,
       0.0,
       0.0
@@ -3577,11 +3577,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxS_FtOGcfLDH9ByqwqV4AgHYO9ACmfXoZ": {
-    "t": 1790794690.9853356,
+    "t": 1790794817.206453,
     "likes": 4000.0,
     "comments": null,
     "rate_history": [
-      47.657283025431376,
       0.0,
       0.0,
       0.0,
@@ -3600,16 +3599,16 @@
       0.0,
       50.39089691111553,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxT2IQLWIOaf6nCYG0w6ptqFnfB_Wj8gzJ": {
-    "t": 1790794691.161868,
-    "likes": 997.0,
+    "t": 1790794817.3922489,
+    "likes": 1000.0,
     "comments": null,
     "rate_history": [
-      1.9049407877552584,
       2.2536762578668212,
       6.560343579691323,
       3.7764736777354804,
@@ -3628,7 +3627,8 @@
       1.0308931752723185,
       2.5178281105646705,
       1.4674655863472477,
-      3.5660018405193723
+      3.5660018405193723,
+      1.4259641688233333
     ],
     "fail_count": 0
   },
@@ -3658,6 +3658,6 @@
       3.4226791236281526,
       3.0562415343955425
     ],
-    "fail_count": 0
+    "fail_count": 1
   }
 }
