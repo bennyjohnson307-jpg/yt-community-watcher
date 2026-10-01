@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790877972.1202853,
+    "t": 1790878091.2515473,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3493,7 +3493,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHdFHFjN4QJX8VhKO-Q_IHKPf5dHdKGxB": {
-    "t": 1790877972.3927667,
+    "t": 1790878091.5415692,
     "likes": 9300.0,
     "comments": null,
     "rate_history": [
@@ -3512,8 +3512,8 @@
       0.0,
       0.0,
       0.0,
-      0.0,
       51.146508963868435,
+      0.0,
       0.0,
       0.0,
       0.0
@@ -3686,14 +3686,13 @@
       0.0,
       0.0
     ],
-    "fail_count": 0
+    "fail_count": 1
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
-    "t": 1790877972.782254,
+    "t": 1790878092.049674,
     "likes": 3700.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       53.28312531331659,
@@ -3712,16 +3711,16 @@
       0.0,
       0.0,
       51.07846884693447,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlB0oUiJrkg0sKWUPthAVBVsbjTVXA9Lr": {
-    "t": 1790877973.0421858,
-    "likes": 393.0,
+    "t": 1790878092.2842128,
+    "likes": 398.0,
     "comments": null,
     "rate_history": [
-      1.9510098398438305,
       2.4823232707126035,
       2.8343294949176414,
       6.369818851831279,
@@ -3740,16 +3739,16 @@
       1.882624093888944,
       2.0891112024835015,
       4.595231143564948,
-      3.9275156360510803
+      3.9275156360510803,
+      2.515891480849746
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEatD43zeFlYVTNwy_ihWYDLOSQpAtxGn": {
-    "t": 1790877973.2063231,
+    "t": 1790878092.557612,
     "likes": 1000.0,
     "comments": null,
     "rate_history": [
-      5.8416326062129045,
       10.939953640917802,
       5.199601012646219,
       10.599221151434095,
@@ -3767,6 +3766,7 @@
       8.191097582753086,
       8.000668330951168,
       2.605839506620238,
+      0.0,
       0.0,
       0.0
     ],
