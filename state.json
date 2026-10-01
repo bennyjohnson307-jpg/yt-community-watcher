@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790881693.0244167,
+    "t": 1790881815.200108,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3518,7 +3518,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 0
+    "fail_count": 1
   },
   "https://www.youtube.com/post/UgkxqS-uI8MqnJCjE1rW4bbv7Ult0DWZF6Pr": {
     "t": 1790780419.5818768,
@@ -3661,11 +3661,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHUUMNQvQzc-lDln5P4t-HgR5vocFyirA": {
-    "t": 1790881693.424356,
+    "t": 1790881815.763601,
     "likes": 3400.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       49.2244410717901,
@@ -3684,16 +3683,16 @@
       53.550773721314826,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
-    "t": 1790881693.620112,
-    "likes": 4200.0,
+    "t": 1790881815.9312868,
+    "likes": 4300.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3712,16 +3711,16 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      49.05520698660504
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlB0oUiJrkg0sKWUPthAVBVsbjTVXA9Lr": {
-    "t": 1790881693.8632708,
-    "likes": 532.0,
+    "t": 1790881816.3528914,
+    "likes": 536.0,
     "comments": null,
     "rate_history": [
-      0.9673320112537024,
       2.570618030029102,
       2.0295316132919177,
       1.96382564706068,
@@ -3740,16 +3739,16 @@
       2.1489890130844747,
       0.5004697918091562,
       1.4752848864154888,
-      1.4834310130699229
+      1.4834310130699229,
+      1.95934968739975
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEatD43zeFlYVTNwy_ihWYDLOSQpAtxGn": {
-    "t": 1790881694.2418494,
+    "t": 1790881816.5185373,
     "likes": 1400.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3763,6 +3762,7 @@
       0.0,
       0.0,
       49.9370831213582,
+      0.0,
       0.0,
       0.0,
       0.0,
