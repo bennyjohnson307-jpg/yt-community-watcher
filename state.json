@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790889969.0023813,
+    "t": 1790890091.1312397,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3493,14 +3493,14 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHdFHFjN4QJX8VhKO-Q_IHKPf5dHdKGxB": {
-    "t": 1790889969.166017,
+    "t": 1790890091.3313837,
     "likes": 9800.0,
     "comments": null,
     "rate_history": [
       0.0,
       0.0,
-      0.0,
       49.94005682784017,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -3661,11 +3661,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHUUMNQvQzc-lDln5P4t-HgR5vocFyirA": {
-    "t": 1790889969.3301303,
+    "t": 1790890091.4922833,
     "likes": 4200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3684,16 +3683,16 @@
       48.58209905235731,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
-    "t": 1790889969.516109,
+    "t": 1790890091.6636162,
     "likes": 5300.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       49.914365402664686,
       0.0,
@@ -3712,16 +3711,16 @@
       0.0,
       52.62641459886273,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlB0oUiJrkg0sKWUPthAVBVsbjTVXA9Lr": {
-    "t": 1790889969.6578465,
-    "likes": 765.0,
+    "t": 1790890091.8178003,
+    "likes": 770.0,
     "comments": null,
     "rate_history": [
-      1.4782443073964924,
       1.5337283801430213,
       1.4978827601119045,
       0.9027339400330627,
@@ -3740,16 +3739,16 @@
       1.945976658644741,
       3.680837993442458,
       3.3699201909925316,
-      0.5215160995576679
+      0.5215160995576679,
+      2.455796605907658
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEatD43zeFlYVTNwy_ihWYDLOSQpAtxGn": {
-    "t": 1790889969.849888,
+    "t": 1790890092.0930877,
     "likes": 2100.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       45.0991055474458,
@@ -3768,7 +3767,8 @@
       0.0,
       0.0,
       0.0,
-      52.208066361990795
+      52.208066361990795,
+      0.0
     ],
     "fail_count": 0
   }
