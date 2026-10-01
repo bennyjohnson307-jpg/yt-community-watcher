@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790859850.461434,
+    "t": 1790859970.2592306,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3493,7 +3493,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHdFHFjN4QJX8VhKO-Q_IHKPf5dHdKGxB": {
-    "t": 1790859850.6385267,
+    "t": 1790859970.3931074,
     "likes": 8700.0,
     "comments": null,
     "rate_history": [
@@ -3605,11 +3605,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxT2IQLWIOaf6nCYG0w6ptqFnfB_Wj8gzJ": {
-    "t": 1790859850.8707607,
+    "t": 1790859970.5657074,
     "likes": 2500.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3628,12 +3627,13 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxRLxIn1ZzspPfg85lSGSYgZwxuowiZyCo": {
-    "t": 1790859851.026347,
+    "t": 1790859970.7202492,
     "likes": 2300.0,
     "comments": null,
     "rate_history": [
@@ -3661,8 +3661,8 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHUUMNQvQzc-lDln5P4t-HgR5vocFyirA": {
-    "t": 1790859851.1899462,
-    "likes": 442.0,
+    "t": 1790859970.8536797,
+    "likes": 452.0,
     "comments": null,
     "rate_history": [
       5.908808053231534,
@@ -3680,13 +3680,14 @@
       12.476197122389975,
       12.270919713061058,
       8.018230672768265,
-      11.579978565232107
+      11.579978565232107,
+      5.01405047744431
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
-    "t": 1790859732.2310224,
-    "likes": 555.0,
+    "t": 1790859970.9840913,
+    "likes": 605.0,
     "comments": null,
     "rate_history": [
       13.785537745083456,
@@ -3703,8 +3704,9 @@
       12.046997164867676,
       11.971569844024192,
       7.079666252870231,
-      16.038699878744218
+      16.038699878744218,
+      12.565283510368563
     ],
-    "fail_count": 1
+    "fail_count": 0
   }
 }
