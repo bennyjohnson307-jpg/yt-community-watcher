@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790877490.1863225,
+    "t": 1790877617.8180265,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3518,7 +3518,7 @@
       0.0,
       51.146508963868435
     ],
-    "fail_count": 0
+    "fail_count": 1
   },
   "https://www.youtube.com/post/UgkxqS-uI8MqnJCjE1rW4bbv7Ult0DWZF6Pr": {
     "t": 1790780419.5818768,
@@ -3661,11 +3661,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHUUMNQvQzc-lDln5P4t-HgR5vocFyirA": {
-    "t": 1790877490.6306012,
+    "t": 1790877618.1423137,
     "likes": 2900.0,
     "comments": null,
     "rate_history": [
-      0.0,
       48.39825177122426,
       0.0,
       0.0,
@@ -3684,16 +3683,16 @@
       0.0,
       0.0,
       48.387443426374865,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
-    "t": 1790877490.7980094,
+    "t": 1790877618.3029842,
     "likes": 3600.0,
     "comments": null,
     "rate_history": [
-      0.0,
       48.333980886317846,
       0.0,
       0.0,
@@ -3712,16 +3711,16 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlB0oUiJrkg0sKWUPthAVBVsbjTVXA9Lr": {
-    "t": 1790877490.9513648,
-    "likes": 368.0,
+    "t": 1790877618.433001,
+    "likes": 372.0,
     "comments": null,
     "rate_history": [
-      4.366217027834594,
       4.347297924521264,
       6.240148253033905,
       2.7860325396750203,
@@ -3740,16 +3739,16 @@
       1.5452224555038192,
       3.052444285163961,
       3.380532851596197,
-      2.047888035288142
+      2.047888035288142,
+      1.882624093888944
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEatD43zeFlYVTNwy_ihWYDLOSQpAtxGn": {
-    "t": 1790877491.1134243,
-    "likes": 978.0,
+    "t": 1790877618.6027737,
+    "likes": 995.0,
     "comments": null,
     "rate_history": [
-      9.814862484817166,
       7.732625221865679,
       7.201512929232769,
       5.0166073869871015,
@@ -3768,7 +3767,8 @@
       8.765787171767103,
       8.65194697065375,
       5.312421764094036,
-      8.191097582753086
+      8.191097582753086,
+      8.000668330951168
     ],
     "fail_count": 0
   }
