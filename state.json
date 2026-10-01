@@ -662,7 +662,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 0
+    "fail_count": 1
   },
   "https://www.youtube.com/post/UgkxNUTS1OmTRZIVgyoZH2cjpz_pT0rkh3OG": {
     "t": 1790735413.728322,
@@ -3493,13 +3493,13 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHdFHFjN4QJX8VhKO-Q_IHKPf5dHdKGxB": {
-    "t": 1790895129.0934377,
+    "t": 1790895249.2081828,
     "likes": 10000.0,
     "comments": null,
     "rate_history": [
       0.0,
-      0.0,
       50.17495262644666,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -3661,11 +3661,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHUUMNQvQzc-lDln5P4t-HgR5vocFyirA": {
-    "t": 1790895129.2894256,
+    "t": 1790895249.3540947,
     "likes": 4600.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3684,16 +3683,16 @@
       0.0,
       49.99423838496701,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
-    "t": 1790895129.4440095,
+    "t": 1790895249.4987497,
     "likes": 5900.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3712,16 +3711,16 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlB0oUiJrkg0sKWUPthAVBVsbjTVXA9Lr": {
-    "t": 1790895129.5821311,
-    "likes": 890.0,
+    "t": 1790895249.669363,
+    "likes": 892.0,
     "comments": null,
     "rate_history": [
-      1.0210064416013043,
       0.5000309049316061,
       2.0043262201840824,
       0.9640018077975797,
@@ -3740,16 +3739,16 @@
       0.0,
       2.495819280077947,
       2.442866011104372,
-      0.0
+      0.0,
+      0.9992735957594799
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEatD43zeFlYVTNwy_ihWYDLOSQpAtxGn": {
-    "t": 1790895129.7668035,
+    "t": 1790895249.8223026,
     "likes": 2400.0,
     "comments": null,
     "rate_history": [
-      0.0,
       51.11003056149774,
       0.0,
       0.0,
@@ -3767,6 +3766,7 @@
       0.0,
       0.0,
       49.158834998331756,
+      0.0,
       0.0,
       0.0
     ],
