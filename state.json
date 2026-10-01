@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790888704.7116413,
+    "t": 1790888770.277934,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3518,7 +3518,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 0
+    "fail_count": 1
   },
   "https://www.youtube.com/post/UgkxqS-uI8MqnJCjE1rW4bbv7Ult0DWZF6Pr": {
     "t": 1790780419.5818768,
@@ -3661,11 +3661,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHUUMNQvQzc-lDln5P4t-HgR5vocFyirA": {
-    "t": 1790888705.1947346,
+    "t": 1790888770.6237311,
     "likes": 4100.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3684,16 +3683,16 @@
       0.0,
       0.0,
       49.991124755273745,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
-    "t": 1790888705.3909678,
+    "t": 1790888770.7642586,
     "likes": 5200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3712,16 +3711,16 @@
       0.0,
       0.0,
       0.0,
-      113.43177046614672
+      113.43177046614672,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlB0oUiJrkg0sKWUPthAVBVsbjTVXA9Lr": {
-    "t": 1790888705.72193,
+    "t": 1790888771.480388,
     "likes": 731.0,
     "comments": null,
     "rate_history": [
-      3.5476613649787914,
       1.9419754721982727,
       0.5104866488693297,
       1.5216220645763603,
@@ -3740,16 +3739,16 @@
       1.4432009404525714,
       0.5216640548007548,
       3.001269030715185,
-      1.1303836498002224
+      1.1303836498002224,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEatD43zeFlYVTNwy_ihWYDLOSQpAtxGn": {
-    "t": 1790888705.9152133,
+    "t": 1790888771.7003262,
     "likes": 2000.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       50.732837393095465,
@@ -3764,6 +3763,7 @@
       0.0,
       0.0,
       45.0991055474458,
+      0.0,
       0.0,
       0.0,
       0.0,
