@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790927649.2714663,
+    "t": 1790927768.1916091,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3493,7 +3493,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHdFHFjN4QJX8VhKO-Q_IHKPf5dHdKGxB": {
-    "t": 1790927649.4287052,
+    "t": 1790927768.4186933,
     "likes": 10000.0,
     "comments": null,
     "rate_history": [
@@ -3661,7 +3661,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxHUUMNQvQzc-lDln5P4t-HgR5vocFyirA": {
-    "t": 1790927649.5755231,
+    "t": 1790927768.5991917,
     "likes": 6500.0,
     "comments": null,
     "rate_history": [
@@ -3682,8 +3682,8 @@
       0.0,
       0.0,
       0.0,
-      0.0,
       51.13604218200697,
+      0.0,
       0.0
     ],
     "fail_count": 0
@@ -3717,14 +3717,14 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlB0oUiJrkg0sKWUPthAVBVsbjTVXA9Lr": {
-    "t": 1790927649.726271,
+    "t": 1790927768.7918,
     "likes": 1400.0,
     "comments": null,
     "rate_history": [
       0.0,
       0.0,
-      0.0,
       48.307646683271415,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -3745,7 +3745,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEatD43zeFlYVTNwy_ihWYDLOSQpAtxGn": {
-    "t": 1790927649.9089663,
+    "t": 1790927769.0082629,
     "likes": 3800.0,
     "comments": null,
     "rate_history": [
@@ -3764,8 +3764,8 @@
       0.0,
       0.0,
       0.0,
-      0.0,
       50.17287763460313,
+      0.0,
       0.0,
       0.0,
       0.0
@@ -3773,11 +3773,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxp2ldtaUDa3Yd-QtnPDr_0ax63LmIWRZ7": {
-    "t": 1790927650.0493386,
+    "t": 1790927769.1951692,
     "likes": 6400.0,
     "comments": null,
     "rate_history": [
-      0.0,
       50.30129408649386,
       0.0,
       0.0,
@@ -3796,7 +3795,8 @@
       0.0,
       0.0,
       0.0,
-      50.481928865606314
+      50.481928865606314,
+      0.0
     ],
     "fail_count": 0
   }
