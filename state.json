@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1790968090.0124965,
+    "t": 1790968213.4643726,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 316
+    "fail_count": 317
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3773,7 +3773,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxp2ldtaUDa3Yd-QtnPDr_0ax63LmIWRZ7": {
-    "t": 1790968090.2312584,
+    "t": 1790968214.0625315,
     "likes": 11000.0,
     "comments": null,
     "rate_history": [
@@ -3801,11 +3801,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxRRmRksCEzycWcM8b70rINGpcTU1ruV7M": {
-    "t": 1790968090.3846214,
-    "likes": 772.0,
+    "t": 1790968214.5136182,
+    "likes": 782.0,
     "comments": null,
     "rate_history": [
-      4.004262008702218,
       5.883372396207855,
       1.9641110745516228,
       3.099961021509463,
@@ -3824,16 +3823,16 @@
       1.9940565412224804,
       3.5653331395238346,
       1.9908663640000175,
-      2.9891093439863954
+      2.9891093439863954,
+      4.83368121253405
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxAN38hLgl7bTpQVyNas6ZtQIvElXC8xzf": {
-    "t": 1790968090.554542,
-    "likes": 487.0,
+    "t": 1790968214.913684,
+    "likes": 494.0,
     "comments": null,
     "rate_history": [
-      2.4547440539203453,
       2.065985553413301,
       1.5127468538390312,
       0.961771556615335,
@@ -3852,16 +3851,16 @@
       2.0971302291668086,
       2.0373031718606,
       3.4854527105707014,
-      1.4945183822731183
+      1.4945183822731183,
+      3.377315039577278
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxYPrfrPE0y0eMeUDB7PiGH_HUdR67aFLI": {
-    "t": 1790968090.690478,
+    "t": 1790968215.3403404,
     "likes": 3400.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       50.46251101686974,
       0.0,
@@ -3880,7 +3879,8 @@
       0.0,
       0.0,
       0.0,
-      49.82911835167624
+      49.82911835167624,
+      0.0
     ],
     "fail_count": 0
   }
