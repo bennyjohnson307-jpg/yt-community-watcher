@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791065052.3197343,
+    "t": 1791065170.137687,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 1124
+    "fail_count": 1125
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3857,7 +3857,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxYPrfrPE0y0eMeUDB7PiGH_HUdR67aFLI": {
-    "t": 1791065052.6968648,
+    "t": 1791065170.588418,
     "likes": 10000.0,
     "comments": null,
     "rate_history": [
@@ -3885,11 +3885,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
-    "t": 1791065052.936685,
+    "t": 1791065171.0537627,
     "likes": 5800.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -3908,16 +3907,16 @@
       0.0,
       0.0,
       37.8720081747044,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxTDKC2FKAxkn-4Dqk1WS2j03yxH-u0DU1": {
-    "t": 1791065053.1802227,
-    "likes": 537.0,
+    "t": 1791065171.2951798,
+    "likes": 543.0,
     "comments": null,
     "rate_history": [
-      6.295180046924028,
       2.128388581113712,
       2.00040926166952,
       3.474529262261818,
@@ -3936,16 +3935,16 @@
       0.0,
       3.347257697014115,
       2.646353675307367,
-      3.1161331968788635
+      3.1161331968788635,
+      3.047878176113739
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEVwCx_5zFAtgv0sDLcUob39TaCazq3Et": {
-    "t": 1791065053.4037027,
-    "likes": 800.0,
+    "t": 1791065171.672247,
+    "likes": 808.0,
     "comments": null,
     "rate_history": [
-      6.774950239128529,
       6.91925634886627,
       4.502606604495416,
       3.472821223444034,
@@ -3964,7 +3963,8 @@
       1.3444187020302578,
       2.232515562631201,
       4.159251154666565,
-      2.3362768178320668
+      2.3362768178320668,
+      4.058560145968557
     ],
     "fail_count": 0
   }
