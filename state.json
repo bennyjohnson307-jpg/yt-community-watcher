@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791068050.1733656,
+    "t": 1791068170.2765799,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 1149
+    "fail_count": 1150
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3857,7 +3857,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxYPrfrPE0y0eMeUDB7PiGH_HUdR67aFLI": {
-    "t": 1791068050.5753946,
+    "t": 1791068170.5609283,
     "likes": 10000.0,
     "comments": null,
     "rate_history": [
@@ -3885,11 +3885,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
-    "t": 1791068050.7890224,
-    "likes": 6100.0,
+    "t": 1791068170.7772005,
+    "likes": 6200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       50.46901426019932,
       0.0,
       0.0,
@@ -3908,16 +3907,16 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      50.004926312508594
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxTDKC2FKAxkn-4Dqk1WS2j03yxH-u0DU1": {
-    "t": 1791068051.02456,
-    "likes": 672.0,
+    "t": 1791068171.2927253,
+    "likes": 676.0,
     "comments": null,
     "rate_history": [
-      2.0136676950331838,
       2.4871050420219727,
       2.857544170349975,
       2.6704194539068413,
@@ -3936,16 +3935,16 @@
       1.0002930943655663,
       2.8909222568291884,
       2.6125458380632898,
-      1.5000419509222134
+      1.5000419509222134,
+      1.9955405430991648
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEVwCx_5zFAtgv0sDLcUob39TaCazq3Et": {
-    "t": 1791068051.2602277,
-    "likes": 967.0,
+    "t": 1791068171.4293113,
+    "likes": 974.0,
     "comments": null,
     "rate_history": [
-      4.528267058199811,
       5.47428885869973,
       4.285293291216073,
       2.1377466645750878,
@@ -3964,7 +3963,8 @@
       3.498362864271155,
       1.4467178084036838,
       2.0904727739913365,
-      2.9981290154991087
+      2.9981290154991087,
+      3.49507533413953
     ],
     "fail_count": 0
   }
