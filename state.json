@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791061813.504034,
+    "t": 1791061939.5080426,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 1099
+    "fail_count": 1100
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3857,7 +3857,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxYPrfrPE0y0eMeUDB7PiGH_HUdR67aFLI": {
-    "t": 1791061813.944055,
+    "t": 1791061956.364924,
     "likes": 10000.0,
     "comments": null,
     "rate_history": [
@@ -3885,11 +3885,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
-    "t": 1791061814.171974,
+    "t": 1791061957.3519368,
     "likes": 5300.0,
     "comments": null,
     "rate_history": [
-      51.29163579656027,
       0.0,
       0.0,
       0.0,
@@ -3908,16 +3907,16 @@
       0.0,
       48.8143193188743,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxTDKC2FKAxkn-4Dqk1WS2j03yxH-u0DU1": {
-    "t": 1791061814.4006982,
-    "likes": 333.0,
+    "t": 1791061957.7939692,
+    "likes": 340.0,
     "comments": null,
     "rate_history": [
-      6.136781989738144,
       3.513791981305942,
       5.484469815079914,
       5.064730367353947,
@@ -3936,13 +3935,14 @@
       3.5315108153380343,
       3.883139325003718,
       3.588481520762505,
-      1.9447887715954804
+      1.9447887715954804,
+      2.9290077362811147
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEVwCx_5zFAtgv0sDLcUob39TaCazq3Et": {
-    "t": 1791061814.687471,
-    "likes": 546.0,
+    "t": 1791061959.1352963,
+    "likes": 556.0,
     "comments": null,
     "rate_history": [
       9.539469518439102,
@@ -3963,7 +3963,8 @@
       4.040835492496287,
       5.327340626906361,
       5.649796099072465,
-      5.34491821395034
+      5.34491821395034,
+      4.1537489277274515
     ],
     "fail_count": 0
   }
