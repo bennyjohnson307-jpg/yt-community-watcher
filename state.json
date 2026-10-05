@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791244126.4153538,
+    "t": 1791244213.6605246,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 2583
+    "fail_count": 2584
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 199
+    "fail_count": 200
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4109,11 +4109,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlbFLXb1K7z-Gh0ounWlDDvlaMZTk0uuv": {
-    "t": 1791244126.9168215,
+    "t": 1791244213.9711,
     "likes": 5200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       51.171802621034566,
       0.0,
       0.0,
@@ -4132,16 +4131,16 @@
       0.0,
       0.0,
       49.901918328937214,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxlsJfrdnAvH_OncsJVB8cNZ9gswvZ4tMD": {
-    "t": 1791244127.077148,
-    "likes": 896.0,
+    "t": 1791244214.118919,
+    "likes": 902.0,
     "comments": null,
     "rate_history": [
-      9.395482755550876,
       6.636096328415762,
       4.429752177968407,
       5.029404304342834,
@@ -4160,16 +4159,16 @@
       6.676726541337504,
       6.013001252852752,
       4.479472645453332,
-      2.69966085750283
+      2.69966085750283,
+      4.135945260909203
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxNWyy66YrBKFvOoX_r8hL6ga0itXY5YmD": {
-    "t": 1791244127.390857,
-    "likes": 228.0,
+    "t": 1791244214.2771788,
+    "likes": 229.0,
     "comments": null,
     "rate_history": [
-      1.483963771178388,
       1.02057398636572,
       1.475991818727637,
       0.5032453955813834,
@@ -4188,7 +4187,8 @@
       1.541269881179261,
       1.5033284836987508,
       0.4975055367251752,
-      1.5419333423730415
+      1.5419333423730415,
+      0.6905574867101124
     ],
     "fail_count": 0
   }
