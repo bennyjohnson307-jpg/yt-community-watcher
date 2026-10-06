@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791330489.284685,
+    "t": 1791330612.812222,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 3305
+    "fail_count": 3306
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 921
+    "fail_count": 922
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4221,11 +4221,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxvwyNamkoE7YbZWOy6THR_EBe83yLA4fU": {
-    "t": 1791330369.812528,
+    "t": 1791330613.2130668,
     "likes": 3500.0,
     "comments": null,
     "rate_history": [
-      57.38043730615199,
       0.0,
       0.0,
       0.0,
@@ -4244,13 +4243,14 @@
       0.0,
       0.0,
       50.12664885380789,
+      0.0,
       0.0
     ],
-    "fail_count": 1
+    "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxnRl5OiA-LpwmuJcDnxeeqtJZfelpRYbk": {
-    "t": 1791330489.9215584,
-    "likes": 110.0,
+    "t": 1791330613.4024706,
+    "likes": 114.0,
     "comments": null,
     "rate_history": [
       3.531269408641842,
@@ -4260,13 +4260,14 @@
       4.575848630755998,
       6.005870453666348,
       5.993508205956086,
-      3.002922327079738
+      3.002922327079738,
+      1.9436202382004122
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxD13XMr89Eut0h61IGh0ybIsJJivGhMpf": {
-    "t": 1791330490.1668854,
-    "likes": 66.0,
+    "t": 1791330613.793389,
+    "likes": 75.0,
     "comments": null,
     "rate_history": [
       1.511902418782829,
@@ -4276,7 +4277,8 @@
       4.06731311284954,
       2.001983147381951,
       2.9961718297472677,
-      2.0007612979396456
+      2.0007612979396456,
+      4.367995403997553
     ],
     "fail_count": 0
   }
