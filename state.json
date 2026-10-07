@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791340329.2550085,
+    "t": 1791340449.186096,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 3387
+    "fail_count": 3388
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 1003
+    "fail_count": 1004
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4249,11 +4249,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxnRl5OiA-LpwmuJcDnxeeqtJZfelpRYbk": {
-    "t": 1791340329.9282916,
-    "likes": 595.0,
+    "t": 1791340449.5531297,
+    "likes": 600.0,
     "comments": null,
     "rate_history": [
-      1.0198204107038733,
       1.5114380462631363,
       1.9989550212017626,
       2.0168525332305998,
@@ -4272,16 +4271,16 @@
       1.0010793621199099,
       1.0081754644278729,
       0.9401330018440387,
-      2.121126813556723
+      2.121126813556723,
+      2.5078403844078427
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxD13XMr89Eut0h61IGh0ybIsJJivGhMpf": {
-    "t": 1791340330.1209536,
+    "t": 1791340449.6879895,
     "likes": 386.0,
     "comments": null,
     "rate_history": [
-      1.007463488720978,
       2.4955387841756713,
       0.5053356476258761,
       2.3313067867798116,
@@ -4300,15 +4299,18 @@
       1.0011101197844234,
       1.5131033859860237,
       1.409135332700153,
-      2.6526475529288
+      2.6526475529288,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxw6ueT0TqZI1RtKkkzQMoW6JDq-ZOpkcO": {
-    "t": 1791340330.3082352,
-    "likes": 89.0,
+    "t": 1791340449.8799908,
+    "likes": 116.0,
     "comments": null,
-    "rate_history": [],
+    "rate_history": [
+      13.54835003655575
+    ],
     "fail_count": 0
   }
 }
