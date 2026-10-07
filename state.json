@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791355213.640451,
+    "t": 1791355329.4366112,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 3511
+    "fail_count": 3512
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 1127
+    "fail_count": 1128
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4249,11 +4249,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxnRl5OiA-LpwmuJcDnxeeqtJZfelpRYbk": {
-    "t": 1791355214.057824,
+    "t": 1791355329.8500774,
     "likes": 980.0,
     "comments": null,
     "rate_history": [
-      1.6008115177559425,
       0.48199433559038024,
       1.024886961347268,
       1.0014561646944424,
@@ -4272,16 +4271,16 @@
       2.9916155127202537,
       3.036932695351766,
       0.9950996102328581,
-      0.9609113507966034
+      0.9609113507966034,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxD13XMr89Eut0h61IGh0ybIsJJivGhMpf": {
-    "t": 1791355214.2547204,
+    "t": 1791355330.099818,
     "likes": 673.0,
     "comments": null,
     "rate_history": [
-      0.945454810486755,
       1.0675653792336715,
       0.9641152296315207,
       0.5120726665618748,
@@ -4300,16 +4299,16 @@
       1.9927776193037599,
       0.5064900504228399,
       1.9905839051429275,
-      0.9603664954529643
+      0.9603664954529643,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxw6ueT0TqZI1RtKkkzQMoW6JDq-ZOpkcO": {
-    "t": 1791355214.424188,
+    "t": 1791355330.3025086,
     "likes": 2300.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -4322,6 +4321,7 @@
       0.0,
       0.0,
       49.779797035274875,
+      0.0,
       0.0,
       0.0,
       0.0,
