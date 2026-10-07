@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791348249.4559805,
+    "t": 1791348369.3543534,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 3453
+    "fail_count": 3454
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 1069
+    "fail_count": 1070
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4249,11 +4249,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxnRl5OiA-LpwmuJcDnxeeqtJZfelpRYbk": {
-    "t": 1791348249.9325404,
-    "likes": 823.0,
+    "t": 1791348369.8032026,
+    "likes": 828.0,
     "comments": null,
     "rate_history": [
-      1.5011432443559105,
       1.0022938115895776,
       2.509128126595566,
       0.49255130237769557,
@@ -4272,16 +4271,16 @@
       2.4785115700203226,
       0.49049439155520774,
       2.9532546661260115,
-      1.5534624098881642
+      1.5534624098881642,
+      2.502697444588214
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxD13XMr89Eut0h61IGh0ybIsJJivGhMpf": {
-    "t": 1791348250.1593146,
-    "likes": 564.0,
+    "t": 1791348369.9525576,
+    "likes": 565.0,
     "comments": null,
     "rate_history": [
-      1.500390365955854,
       1.5030977612518468,
       2.0087223787990602,
       0.4927633130585443,
@@ -4300,16 +4299,16 @@
       0.9906824767825624,
       0.49076888206013886,
       0.49195664419071516,
-      1.5530182579310043
+      1.5530182579310043,
+      0.5008629746702512
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxw6ueT0TqZI1RtKkkzQMoW6JDq-ZOpkcO": {
-    "t": 1791348134.621297,
-    "likes": 1500.0,
+    "t": 1791348370.105551,
+    "likes": 1600.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       49.30750605110546,
@@ -4328,8 +4327,9 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      25.479410597436836
     ],
-    "fail_count": 1
+    "fail_count": 0
   }
 }
