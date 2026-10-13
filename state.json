@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1791867129.892034,
+    "t": 1791867249.442335,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 7788
+    "fail_count": 7789
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 5404
+    "fail_count": 5405
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4473,7 +4473,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEoHDOCVcBDGRPATfZ1X4PMd4K5pdsj23": {
-    "t": 1791867130.313358,
+    "t": 1791867249.941302,
     "likes": 13000.0,
     "comments": null,
     "rate_history": [
@@ -4669,11 +4669,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxSwgS8D0SzR5dne2qOHcDRZo8cuN3ILP5": {
-    "t": 1791867130.471065,
-    "likes": 991.0,
+    "t": 1791867250.1827662,
+    "likes": 999.0,
     "comments": null,
     "rate_history": [
-      2.995140919364613,
       5.974860774355539,
       3.9257283917669716,
       4.949332374722408,
@@ -4692,16 +4691,16 @@
       7.544319198134688,
       6.421724623468117,
       4.469483432071607,
-      4.01616864694083
+      4.01616864694083,
+      4.009633104951655
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxQs9E60CD34LNS1qNM_ZddueE5GLip9mJ": {
-    "t": 1791867130.5973914,
-    "likes": 277.0,
+    "t": 1791867250.4291148,
+    "likes": 279.0,
     "comments": null,
     "rate_history": [
-      1.497123840557492,
       2.988354787048288,
       0.9807507228512883,
       1.485848984332615,
@@ -4720,7 +4719,8 @@
       2.010929139902268,
       1.9763793334592878,
       0.9934574020795927,
-      1.5063436569852773
+      1.5063436569852773,
+      1.0014042737894324
     ],
     "fail_count": 0
   }
