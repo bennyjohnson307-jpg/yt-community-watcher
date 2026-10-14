@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792016170.2901008,
+    "t": 1792016288.3614497,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 9037
+    "fail_count": 9038
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 6653
+    "fail_count": 6654
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4809,11 +4809,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxVgP7ERJWYDyt3LwKjyZuIdSvG5mG6c7b": {
-    "t": 1792016170.8528013,
+    "t": 1792016288.7684832,
     "likes": 4200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -4832,16 +4831,16 @@
       48.48477674482607,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxNZyn314b5dF1dweK_gN9gJoNQ9o_AheZ": {
-    "t": 1792016171.194793,
-    "likes": 673.0,
+    "t": 1792016289.1026535,
+    "likes": 684.0,
     "comments": null,
     "rate_history": [
-      7.5123834145275366,
       6.852203650782254,
       8.80745667007737,
       10.28049796617999,
@@ -4860,16 +4859,16 @@
       3.3854988462371707,
       8.33897160920623,
       5.973469123457179,
-      5.958536996173141
+      5.958536996173141,
+      5.59759117927538
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx9IVCf5KFz2G8E_t0UITNfR3GeP0pNqqh": {
-    "t": 1792016171.4038372,
-    "likes": 3.0,
+    "t": 1792016289.2953427,
+    "likes": 466.0,
     "comments": null,
     "rate_history": [
-      147.68645090013678,
       4.405010481533712,
       5.185723720210803,
       5.870522933659577,
@@ -4888,7 +4887,8 @@
       210.1774966778316,
       3.6504686378511804,
       2.9825582115748275,
-      -222.7809958504458
+      -222.7809958504458,
+      235.64038720972107
     ],
     "fail_count": 0
   }
