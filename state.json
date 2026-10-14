@@ -662,7 +662,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 0
+    "fail_count": 1
   },
   "https://www.youtube.com/post/UgkxNUTS1OmTRZIVgyoZH2cjpz_pT0rkh3OG": {
     "t": 1790735413.728322,
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 9056
+    "fail_count": 9057
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 6672
+    "fail_count": 6673
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4809,11 +4809,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxVgP7ERJWYDyt3LwKjyZuIdSvG5mG6c7b": {
-    "t": 1792018449.334587,
+    "t": 1792018569.5689266,
     "likes": 4500.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       51.54567619847705,
@@ -4832,16 +4831,16 @@
       50.71582974200839,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxNZyn314b5dF1dweK_gN9gJoNQ9o_AheZ": {
-    "t": 1792018449.5049102,
-    "likes": 883.0,
+    "t": 1792018569.7374382,
+    "likes": 891.0,
     "comments": null,
     "rate_history": [
-      5.958536996173141,
       5.59759117927538,
       4.778729754351388,
       4.714624604107105,
@@ -4860,16 +4859,16 @@
       5.5796817202127516,
       6.796520408147635,
       4.114014927528673,
-      8.023273570118546
+      8.023273570118546,
+      3.9922640578155932
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx9IVCf5KFz2G8E_t0UITNfR3GeP0pNqqh": {
-    "t": 1792018449.6629193,
-    "likes": 599.0,
+    "t": 1792018569.9129143,
+    "likes": 3.0,
     "comments": null,
     "rate_history": [
-      2.9825582115748275,
       -222.7809958504458,
       235.64038720972107,
       2.8684946276330883,
@@ -4888,7 +4887,8 @@
       3.908744763738298,
       3.0437551633441555,
       -277.1605891351809,
-      151.35138372070807
+      151.35138372070807,
+      -297.3804697623419
     ],
     "fail_count": 0
   }
