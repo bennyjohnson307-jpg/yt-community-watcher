@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792015813.5691571,
+    "t": 1792015929.1024833,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 9034
+    "fail_count": 9035
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 6650
+    "fail_count": 6651
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4809,11 +4809,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxVgP7ERJWYDyt3LwKjyZuIdSvG5mG6c7b": {
-    "t": 1792015814.210324,
+    "t": 1792015929.5991175,
     "likes": 4200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       49.96621588297771,
       0.0,
       0.0,
@@ -4832,16 +4831,16 @@
       0.0,
       0.0,
       0.0,
-      48.48477674482607
+      48.48477674482607,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxNZyn314b5dF1dweK_gN9gJoNQ9o_AheZ": {
-    "t": 1792015814.704679,
-    "likes": 633.0,
+    "t": 1792015929.8267882,
+    "likes": 649.0,
     "comments": null,
     "rate_history": [
-      8.604014064029872,
       4.9835888653093,
       6.6334046280931505,
       7.5123834145275366,
@@ -4860,16 +4859,16 @@
       10.93948210615363,
       4.989442752233144,
       6.571298592232474,
-      3.3854988462371707
+      3.3854988462371707,
+      8.33897160920623
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx9IVCf5KFz2G8E_t0UITNfR3GeP0pNqqh": {
-    "t": 1792015814.9917536,
-    "likes": 438.0,
+    "t": 1792015930.0454745,
+    "likes": 445.0,
     "comments": null,
     "rate_history": [
-      4.552159088997449,
       3.9821432869942046,
       -136.47562379247933,
       147.68645090013678,
@@ -4888,7 +4887,8 @@
       4.97684328788815,
       3.994723994007777,
       -209.72443629786522,
-      210.1774966778316
+      210.1774966778316,
+      3.6504686378511804
     ],
     "fail_count": 0
   }
