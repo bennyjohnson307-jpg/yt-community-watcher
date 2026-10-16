@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792188849.3594835,
+    "t": 1792188969.3763645,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 10484
+    "fail_count": 10485
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 8100
+    "fail_count": 8101
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4921,11 +4921,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxYZHQWl75Oa4KJxVbO3ivEDSZGYVxSaMb": {
-    "t": 1792188849.8496118,
+    "t": 1792188969.9001179,
     "likes": 7400.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       49.43211722972818,
       0.0,
@@ -4944,16 +4943,16 @@
       0.0,
       0.0,
       0.0,
-      49.686527664615944
+      49.686527664615944,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxaY1XwHZ0Q7NyDkEzZ-K_UKIGTjPj49XC": {
-    "t": 1792188850.195889,
+    "t": 1792188970.0785244,
     "likes": 1000.0,
     "comments": null,
     "rate_history": [
-      13.479011271598049,
       8.036775739491391,
       12.83807732917653,
       6.563747656435406,
@@ -4972,16 +4971,16 @@
       6.548343131280387,
       9.267913163321795,
       6.1266459065148835,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxcdxRhnngi4OYlRTp2sFQELosfSo2xdyV": {
-    "t": 1792188850.4126658,
-    "likes": 271.0,
+    "t": 1792188970.4881415,
+    "likes": 272.0,
     "comments": null,
     "rate_history": [
-      2.0004894460675264,
       2.5101407613118463,
       2.962808243525908,
       3.031356120841787,
@@ -5000,7 +4999,8 @@
       2.5210067971811343,
       2.4382293157629227,
       2.0406657057958304,
-      1.4908809474481386
+      1.4908809474481386,
+      0.499685715620473
     ],
     "fail_count": 0
   }
