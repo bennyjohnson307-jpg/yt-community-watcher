@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792201210.9565487,
+    "t": 1792201328.7829008,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 10589
+    "fail_count": 10590
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 8205
+    "fail_count": 8206
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4921,11 +4921,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxYZHQWl75Oa4KJxVbO3ivEDSZGYVxSaMb": {
-    "t": 1792201211.4552062,
+    "t": 1792201329.2918036,
     "likes": 8500.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -4944,16 +4943,16 @@
       0.0,
       0.0,
       0.0,
-      49.04389212711325
+      49.04389212711325,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxaY1XwHZ0Q7NyDkEzZ-K_UKIGTjPj49XC": {
-    "t": 1792201211.9290617,
-    "likes": 2100.0,
+    "t": 1792201329.4736059,
+    "likes": 2200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -4972,16 +4971,16 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      51.04447883835178
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxcdxRhnngi4OYlRTp2sFQELosfSo2xdyV": {
-    "t": 1792201212.0875385,
+    "t": 1792201329.892535,
     "likes": 567.0,
     "comments": null,
     "rate_history": [
-      0.997425798260617,
       0.4054089196717365,
       0.6590651630842433,
       2.4419251678821228,
@@ -5000,7 +4999,8 @@
       0.9929398899673183,
       0.0,
       1.492944143340156,
-      1.9589096217592945
+      1.9589096217592945,
+      0.0
     ],
     "fail_count": 0
   }
