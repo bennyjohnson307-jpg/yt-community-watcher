@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792210211.2654872,
+    "t": 1792210328.8863635,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 10664
+    "fail_count": 10665
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 8280
+    "fail_count": 8281
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -4949,11 +4949,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxaY1XwHZ0Q7NyDkEzZ-K_UKIGTjPj49XC": {
-    "t": 1792210211.8712754,
+    "t": 1792210329.363408,
     "likes": 2700.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -4972,16 +4971,16 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxcdxRhnngi4OYlRTp2sFQELosfSo2xdyV": {
-    "t": 1792210212.052134,
+    "t": 1792210329.682025,
     "likes": 722.0,
     "comments": null,
     "rate_history": [
-      2.578369603472382,
       1.4707017890766876,
       0.0,
       0.9951671516143468,
@@ -5000,16 +4999,16 @@
       -0.501201836277278,
       0.49843770890211475,
       0.5064291841833642,
-      0.4840454505122971
+      0.4840454505122971,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx6lVk_TCqHL6ZvbQpjIdFYpp3yPPaXi__": {
-    "t": 1792210212.336489,
-    "likes": 828.0,
+    "t": 1792210329.9635983,
+    "likes": 844.0,
     "comments": null,
     "rate_history": [
-      14.97013040014359,
       8.82298675756816,
       11.248545676372036,
       10.939668043448584,
@@ -5028,7 +5027,8 @@
       12.023668388384898,
       2.492882550633829,
       5.573973677514222,
-      7.252364278355861
+      7.252364278355861,
+      8.161383934378412
     ],
     "fail_count": 0
   }
