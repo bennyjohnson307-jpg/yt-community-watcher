@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792301413.54204,
+    "t": 1792301529.2102754,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 11430
+    "fail_count": 11431
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 9046
+    "fail_count": 9047
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5089,11 +5089,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx6y0nlAkZpdgkbEq-WViC_5XO_gZXgXat": {
-    "t": 1792301413.890912,
+    "t": 1792301529.5925786,
     "likes": 1200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -5112,16 +5111,16 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxYmKkGmf3b0SfmbBhurNJctPfhfDYNJ5L": {
-    "t": 1792301414.050242,
-    "likes": 575.0,
+    "t": 1792301529.729152,
+    "likes": 578.0,
     "comments": null,
     "rate_history": [
-      4.096109602932735,
       2.99596460412392,
       6.450158058053008,
       1.998318676151071,
@@ -5140,16 +5139,16 @@
       1.5158004844387512,
       2.9458952286076516,
       2.5481947691856153,
-      2.3864419004138817
+      2.3864419004138817,
+      1.5560312590560057
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxfrhu0J0BQm6X6Dd9jBarwK3KudpScNBt": {
-    "t": 1792301414.2270832,
+    "t": 1792301529.8966722,
     "likes": 1300.0,
     "comments": null,
     "rate_history": [
-      14.342824689031213,
       13.975851945836249,
       16.36440919876035,
       10.99387626412282,
@@ -5167,6 +5166,7 @@
       0.0,
       0.0,
       49.07955196706012,
+      0.0,
       0.0,
       0.0
     ],
