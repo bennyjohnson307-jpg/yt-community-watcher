@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792573811.5145235,
+    "t": 1792573929.588678,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 13714
+    "fail_count": 13715
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 11330
+    "fail_count": 11331
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5369,11 +5369,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxgvSwKOV3g_Vil7W-pB9gprbWfQKuko6M": {
-    "t": 1792573811.8350074,
+    "t": 1792573929.990304,
     "likes": 2500.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -5392,16 +5391,16 @@
       0.0,
       0.0,
       0.0,
-      49.199217219066014
+      49.199217219066014,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxxpYIVlMm2YAfY4YL59fJ2g8IM-HbYn9K": {
-    "t": 1792573812.16195,
-    "likes": 871.0,
+    "t": 1792573930.181373,
+    "likes": 874.0,
     "comments": null,
     "rate_history": [
-      2.0391030191608315,
       0.9977581328878493,
       0.5040125434991242,
       1.4985535367771174,
@@ -5420,16 +5419,16 @@
       0.5031638100367587,
       2.4847470946768486,
       1.4942675976594069,
-      0.9856271692915779
+      0.9856271692915779,
+      1.5251726857830967
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxR2nVIKysRsyI_AEIKNKaUDeFogrGAXyn": {
-    "t": 1792573812.3111546,
+    "t": 1792573930.3490949,
     "likes": 1900.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       49.93313999843996,
@@ -5448,6 +5447,7 @@
       0.0,
       0.0,
       49.76528176950175,
+      0.0,
       0.0
     ],
     "fail_count": 0
