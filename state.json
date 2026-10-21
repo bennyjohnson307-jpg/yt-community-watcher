@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792562769.6831608,
+    "t": 1792562890.717639,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 13622
+    "fail_count": 13623
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 11238
+    "fail_count": 11239
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5369,11 +5369,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxgvSwKOV3g_Vil7W-pB9gprbWfQKuko6M": {
-    "t": 1792562770.198367,
+    "t": 1792562891.024705,
     "likes": 1700.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       50.35502159250272,
@@ -5392,16 +5391,16 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxxpYIVlMm2YAfY4YL59fJ2g8IM-HbYn9K": {
-    "t": 1792562770.4624014,
-    "likes": 658.0,
+    "t": 1792562891.1717157,
+    "likes": 661.0,
     "comments": null,
     "rate_history": [
-      0.4980291594055212,
       1.9846143834990977,
       0.0,
       3.016012554798339,
@@ -5420,16 +5419,16 @@
       1.4394447673908253,
       1.5472626156167428,
       2.5326971261544577,
-      1.9738724939258052
+      1.9738724939258052,
+      1.4911856717500882
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxR2nVIKysRsyI_AEIKNKaUDeFogrGAXyn": {
-    "t": 1792562770.7087927,
+    "t": 1792562891.2958124,
     "likes": 1000.0,
     "comments": null,
     "rate_history": [
-      6.973381977580279,
       6.9470052777232985,
       8.06815260992063,
       4.525637332129024,
@@ -5447,6 +5446,7 @@
       10.45470483860693,
       5.753004984654241,
       3.611935808823794,
+      0.0,
       0.0,
       0.0
     ],
