@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792558209.9802184,
+    "t": 1792558329.383219,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 13584
+    "fail_count": 13585
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 11200
+    "fail_count": 11201
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5369,11 +5369,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxgvSwKOV3g_Vil7W-pB9gprbWfQKuko6M": {
-    "t": 1792558210.4297209,
-    "likes": 1300.0,
+    "t": 1792558329.7666972,
+    "likes": 1400.0,
     "comments": null,
     "rate_history": [
-      0.0,
       49.93400959990132,
       0.0,
       0.0,
@@ -5392,16 +5391,16 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      50.27779475015399
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxxpYIVlMm2YAfY4YL59fJ2g8IM-HbYn9K": {
-    "t": 1792558210.6600025,
-    "likes": 512.0,
+    "t": 1792558330.3845656,
+    "likes": 515.0,
     "comments": null,
     "rate_history": [
-      3.0272597225606006,
       1.4957015604366615,
       0.9869523833401946,
       0.9887177017468349,
@@ -5420,16 +5419,16 @@
       3.025423024103094,
       2.5066167685149123,
       2.469837892391934,
-      0.9955714621641893
+      0.9955714621641893,
+      1.503450881811832
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxR2nVIKysRsyI_AEIKNKaUDeFogrGAXyn": {
-    "t": 1792558210.8575706,
-    "likes": 480.0,
+    "t": 1792558330.5793817,
+    "likes": 503.0,
     "comments": null,
     "rate_history": [
-      11.621156693225362,
       11.957476254339586,
       11.835029186511939,
       12.869833073272373,
@@ -5448,7 +5447,8 @@
       5.552050261614917,
       6.01655660804172,
       6.910221641313544,
-      10.457141107848658
+      10.457141107848658,
+      11.52672172118181
     ],
     "fail_count": 0
   }
