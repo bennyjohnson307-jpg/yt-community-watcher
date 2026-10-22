@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792635369.2386694,
+    "t": 1792635489.132643,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 14231
+    "fail_count": 14232
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 11847
+    "fail_count": 11848
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5425,7 +5425,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxR2nVIKysRsyI_AEIKNKaUDeFogrGAXyn": {
-    "t": 1792635369.5558598,
+    "t": 1792635489.8840106,
     "likes": 5800.0,
     "comments": null,
     "rate_history": [
@@ -5444,8 +5444,8 @@
       0.0,
       0.0,
       0.0,
-      0.0,
       49.36814763513816,
+      0.0,
       0.0,
       0.0,
       0.0
@@ -5453,11 +5453,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxxZneVhYLYbCWEFmEU3Vb1hiboKJz1h9W": {
-    "t": 1792635369.7041583,
+    "t": 1792635490.0621536,
     "likes": 1100.0,
     "comments": null,
     "rate_history": [
-      11.034951565836321,
       9.318367470407416,
       4.595738572853646,
       5.940709622561962,
@@ -5476,16 +5475,16 @@
       0.0,
       0.0,
       0.0,
-      50.81868625976112
+      50.81868625976112,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxzzLGptXJose3WUOcZ7s4iKzAWg3GbqC8": {
-    "t": 1792635369.9464443,
-    "likes": 539.0,
+    "t": 1792635490.3553848,
+    "likes": 547.0,
     "comments": null,
     "rate_history": [
-      5.523914981048762,
       2.941424629946213,
       5.616772161837003,
       4.4533203521940505,
@@ -5504,7 +5503,8 @@
       2.9547836970726022,
       3.6296438794636625,
       5.371462892580608,
-      5.079637530064909
+      5.079637530064909,
+      3.9864149438809187
     ],
     "fail_count": 0
   }
