@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1792856288.7470474,
+    "t": 1792856411.6437645,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 16083
+    "fail_count": 16084
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 13699
+    "fail_count": 13700
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5621,11 +5621,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxJx96J2o5Y23qU5v26Iiqdt8Wv1llcepL": {
-    "t": 1792856289.2179167,
-    "likes": 3100.0,
+    "t": 1792856412.1699328,
+    "likes": 3200.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       54.125499082488304,
@@ -5644,13 +5643,14 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      48.799525128395224
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxs3joYnSUoFWHbBPvy40Ugb-ZwQxPMGcl": {
-    "t": 1792856289.3811245,
-    "likes": 577.0,
+    "t": 1792856412.622476,
+    "likes": 599.0,
     "comments": null,
     "rate_history": [
       13.07670833183393,
@@ -5669,13 +5669,14 @@
       16.608809145777048,
       15.075500023106224,
       17.367435458702168,
-      14.050743157124096
+      14.050743157124096,
+      10.710690712290212
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxVYLD1KDFdVMrpVIFBPfs4MvqzGXm_9i8": {
-    "t": 1792856289.6019704,
-    "likes": 370.0,
+    "t": 1792856412.8889248,
+    "likes": 382.0,
     "comments": null,
     "rate_history": [
       7.007320212455698,
@@ -5695,7 +5696,8 @@
       8.31291631647076,
       7.033277014993788,
       10.419291186210607,
-      8.528082719380851
+      8.528082719380851,
+      5.840033955635829
     ],
     "fail_count": 0
   }
