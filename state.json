@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1793202491.8947666,
+    "t": 1793202613.9576752,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 18982
+    "fail_count": 18983
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 16598
+    "fail_count": 16599
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5901,11 +5901,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxuuRYr7Skeh1h6nvYr9Ad-ddX1fV9BJmy": {
-    "t": 1793202492.4411583,
+    "t": 1793202614.4323318,
     "likes": 4600.0,
     "comments": null,
     "rate_history": [
-      0.0,
       50.04763189300826,
       0.0,
       0.0,
@@ -5924,13 +5923,14 @@
       50.776883887724296,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxk3YzaxRvF71nj5-QSt_iamL9Ni_VAq-T": {
-    "t": 1793202492.6135283,
-    "likes": 601.0,
+    "t": 1793202614.6555607,
+    "likes": 624.0,
     "comments": null,
     "rate_history": [
       15.074220268883057,
@@ -5940,13 +5940,14 @@
       16.207549308895175,
       13.087795954840011,
       12.154823502546195,
-      15.111392445510328
+      15.111392445510328,
+      11.307579626088572
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxZnY15XldUD0Os97a6_5aUWrTrnkjTdR7": {
-    "t": 1793202492.8695064,
-    "likes": 130.0,
+    "t": 1793202614.8767478,
+    "likes": 136.0,
     "comments": null,
     "rate_history": [
       0.5024461147031288,
@@ -5956,7 +5957,8 @@
       3.5456192558554136,
       2.803196579840111,
       4.757480128227562,
-      4.028239499345041
+      4.028239499345041,
+      2.9506445323319115
     ],
     "fail_count": 0
   }
