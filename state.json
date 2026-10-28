@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1793224449.5800664,
+    "t": 1793224569.8591847,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 19166
+    "fail_count": 19167
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 16782
+    "fail_count": 16783
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5901,11 +5901,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxuuRYr7Skeh1h6nvYr9Ad-ddX1fV9BJmy": {
-    "t": 1793224450.0833027,
+    "t": 1793224570.384255,
     "likes": 5700.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -5924,16 +5923,16 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxk3YzaxRvF71nj5-QSt_iamL9Ni_VAq-T": {
-    "t": 1793224450.320729,
+    "t": 1793224570.5605786,
     "likes": 3600.0,
     "comments": null,
     "rate_history": [
-      50.621329061769266,
       0.0,
       0.0,
       0.0,
@@ -5952,16 +5951,16 @@
       0.0,
       0.0,
       51.95031283416889,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxZnY15XldUD0Os97a6_5aUWrTrnkjTdR7": {
-    "t": 1793224450.5215619,
-    "likes": 916.0,
+    "t": 1793224570.7843986,
+    "likes": 918.0,
     "comments": null,
     "rate_history": [
-      2.022758779544129,
       0.49898162701348303,
       1.4535096095353948,
       3.1019339784369584,
@@ -5980,7 +5979,8 @@
       0.9999381878438822,
       3.3911623387514966,
       1.5577122047792549,
-      1.4971760816379112
+      1.4971760816379112,
+      0.9978144811652446
     ],
     "fail_count": 0
   }
