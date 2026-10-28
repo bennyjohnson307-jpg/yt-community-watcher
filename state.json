@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1793205850.4474688,
+    "t": 1793205969.467924,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 19011
+    "fail_count": 19012
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 16627
+    "fail_count": 16628
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5901,11 +5901,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxuuRYr7Skeh1h6nvYr9Ad-ddX1fV9BJmy": {
-    "t": 1793205851.0130737,
+    "t": 1793205969.914087,
     "likes": 4800.0,
     "comments": null,
     "rate_history": [
-      49.39717040955638,
       0.0,
       0.0,
       0.0,
@@ -5924,16 +5923,16 @@
       49.63680940681197,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxk3YzaxRvF71nj5-QSt_iamL9Ni_VAq-T": {
-    "t": 1793205851.3247645,
-    "likes": 1200.0,
+    "t": 1793205970.101055,
+    "likes": 1300.0,
     "comments": null,
     "rate_history": [
-      10.506349270777715,
       14.836273216710348,
       17.618343893255496,
       11.642095273927906,
@@ -5952,16 +5951,16 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      50.51513209369866
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxZnY15XldUD0Os97a6_5aUWrTrnkjTdR7": {
-    "t": 1793205730.700929,
-    "likes": 284.0,
+    "t": 1793205970.6658533,
+    "likes": 290.0,
     "comments": null,
     "rate_history": [
-      2.9570685714424143,
       3.1539995873260667,
       3.459694300144121,
       2.015073557855663,
@@ -5980,8 +5979,9 @@
       3.475584689256768,
       2.47628225829634,
       1.4732412419139373,
-      3.6319976484484684
+      3.6319976484484684,
+      1.5002192549470557
     ],
-    "fail_count": 1
+    "fail_count": 0
   }
 }
