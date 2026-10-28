@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1793205491.5936072,
+    "t": 1793205614.096577,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 19008
+    "fail_count": 19009
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 16624
+    "fail_count": 16625
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5901,11 +5901,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxuuRYr7Skeh1h6nvYr9Ad-ddX1fV9BJmy": {
-    "t": 1793205492.0496955,
+    "t": 1793205614.5497217,
     "likes": 4800.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       49.39717040955638,
@@ -5924,16 +5923,16 @@
       0.0,
       0.0,
       0.0,
-      49.63680940681197
+      49.63680940681197,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkxk3YzaxRvF71nj5-QSt_iamL9Ni_VAq-T": {
-    "t": 1793205492.5776548,
+    "t": 1793205614.7693655,
     "likes": 1200.0,
     "comments": null,
     "rate_history": [
-      13.7203296069828,
       18.207444843579303,
       9.370552338792097,
       10.506349270777715,
@@ -5952,16 +5951,16 @@
       0.0,
       0.0,
       49.70408590134849,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxZnY15XldUD0Os97a6_5aUWrTrnkjTdR7": {
-    "t": 1793205492.882505,
-    "likes": 274.0,
+    "t": 1793205615.0620875,
+    "likes": 277.0,
     "comments": null,
     "rate_history": [
-      2.1035084343747044,
       3.3552060284744325,
       2.9570685714424143,
       3.1539995873260667,
@@ -5980,7 +5979,8 @@
       2.7509943136901853,
       2.198947904505559,
       3.475584689256768,
-      2.47628225829634
+      2.47628225829634,
+      1.4732412419139373
     ],
     "fail_count": 0
   }
