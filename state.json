@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1793288413.1425617,
+    "t": 1793288531.836814,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 19701
+    "fail_count": 19702
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 17317
+    "fail_count": 17318
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -5985,11 +5985,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxxAWWHh4BllMjjjYUKEFQvWscWxMsDyN4": {
-    "t": 1793288413.6209133,
+    "t": 1793288532.385806,
     "likes": 5300.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       50.3631237436248,
       0.0,
@@ -6008,13 +6007,14 @@
       50.18421880935064,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxLilb84jw-0188LoiN714rfq0p2vp2bH2": {
-    "t": 1793288413.799562,
-    "likes": 812.0,
+    "t": 1793288532.6559832,
+    "likes": 842.0,
     "comments": null,
     "rate_history": [
       21.63696610870424,
@@ -6035,13 +6035,14 @@
       14.546414519557278,
       11.558444845058759,
       12.544379254622267,
-      12.559326912448768
+      12.559326912448768,
+      15.144322715919001
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxEQh5F9eFRTTJ0KzudRZZw-Xbu---ybnb": {
-    "t": 1793288413.9883068,
-    "likes": 542.0,
+    "t": 1793288532.943647,
+    "likes": 560.0,
     "comments": null,
     "rate_history": [
       10.065387399216334,
@@ -6061,7 +6062,8 @@
       10.847093604258593,
       10.292420695061914,
       12.044205597102632,
-      9.175703641317774
+      9.175703641317774,
+      9.079037550270666
     ],
     "fail_count": 0
   }
