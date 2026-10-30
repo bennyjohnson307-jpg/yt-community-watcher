@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1793383570.8863237,
+    "t": 1793383690.3765664,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 20494
+    "fail_count": 20495
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 18110
+    "fail_count": 18111
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -6069,11 +6069,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxGOC0AfEYgAnf2COAtlOslFVb_kAnYDv6": {
-    "t": 1793383571.4551287,
+    "t": 1793383690.7791355,
     "likes": 3300.0,
     "comments": null,
     "rate_history": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -6092,16 +6091,16 @@
       0.0,
       0.0,
       0.0,
-      49.86237444583743
+      49.86237444583743,
+      0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx97ZbQMvQXpcf25Ifkb09TJqL6bYiZRCs": {
-    "t": 1793383572.223639,
-    "likes": 799.0,
+    "t": 1793383690.9720345,
+    "likes": 816.0,
     "comments": null,
     "rate_history": [
-      8.049412192949264,
       11.133267189317491,
       8.916032994758794,
       9.448095350470318,
@@ -6120,16 +6119,16 @@
       9.262842753067757,
       13.545387646451175,
       9.89656660806451,
-      7.94210945642897
+      7.94210945642897,
+      8.589589747256227
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxU1gZ0pdaEwvbq3XJrcWkP1A62y1ZZ7ry": {
-    "t": 1793383572.418791,
-    "likes": 295.0,
+    "t": 1793383691.2142406,
+    "likes": 302.0,
     "comments": null,
     "rate_history": [
-      5.098158293744083,
       4.027391333639295,
       3.388254012795346,
       4.722499228606568,
@@ -6148,7 +6147,8 @@
       1.9518110300520333,
       6.769358662107574,
       2.4751855308914807,
-      0.9925728303682175
+      0.9925728303682175,
+      3.5354889584096556
     ],
     "fail_count": 0
   }
