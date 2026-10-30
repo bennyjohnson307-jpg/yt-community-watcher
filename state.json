@@ -637,7 +637,7 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxufJrdolf3PacbKTW9QCmxWgY-qmfthhA": {
-    "t": 1793390050.7643006,
+    "t": 1793390170.044765,
     "likes": 19000.0,
     "comments": null,
     "rate_history": [
@@ -3686,7 +3686,7 @@
       0.0,
       49.00945628356404
     ],
-    "fail_count": 20548
+    "fail_count": 20549
   },
   "https://www.youtube.com/post/UgkxDVLPzMOmb0YQ0KL7ZxNBEWX-o68m8DKm": {
     "t": 1790902816.8443196,
@@ -3882,7 +3882,7 @@
       0.0,
       0.0
     ],
-    "fail_count": 18164
+    "fail_count": 18165
   },
   "https://www.youtube.com/post/UgkxGjtva2DVOlvneMPITUdf4lGBic5DtdEh": {
     "t": 1791102614.283547,
@@ -6069,11 +6069,10 @@
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxGOC0AfEYgAnf2COAtlOslFVb_kAnYDv6": {
-    "t": 1793390051.3012145,
+    "t": 1793390170.4814208,
     "likes": 4200.0,
     "comments": null,
     "rate_history": [
-      52.083301728748474,
       0.0,
       0.0,
       0.0,
@@ -6092,16 +6091,16 @@
       0.0,
       48.38112854871937,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/Ugkx97ZbQMvQXpcf25Ifkb09TJqL6bYiZRCs": {
-    "t": 1793390051.482443,
+    "t": 1793390170.747009,
     "likes": 1500.0,
     "comments": null,
     "rate_history": [
-      48.255641191690735,
       0.0,
       0.0,
       0.0,
@@ -6120,16 +6119,16 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "fail_count": 0
   },
   "https://www.youtube.com/post/UgkxU1gZ0pdaEwvbq3XJrcWkP1A62y1ZZ7ry": {
-    "t": 1793390051.7484872,
-    "likes": 566.0,
+    "t": 1793390171.0144322,
+    "likes": 571.0,
     "comments": null,
     "rate_history": [
-      4.672917107174343,
       3.5074957321971145,
       0.9625341222998879,
       1.5535769378543642,
@@ -6148,7 +6147,8 @@
       3.5591203138304497,
       1.9313147131605195,
       2.5379016008026642,
-      1.5010942836739734
+      1.5010942836739734,
+      2.5153869372042243
     ],
     "fail_count": 0
   }
